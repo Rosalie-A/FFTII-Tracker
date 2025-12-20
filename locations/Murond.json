@@ -1,0 +1,323 @@
+[
+    {
+        "name": "Murond",
+		"chest_unopened_img": "/images/locations/crystal.png",
+		"chest_opened_img": "/images/locations/crystalfound.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            ["gallionepass", "murondpass"]
+        ],
+        "children": [
+            {
+                "name": "Murond Temple",
+                "chest_unopened_img": "/images/locations/crystal.png",
+                "chest_opened_img": "/images/locations/crystalfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkbattlelevel|14"
+                ],
+                "sections": [
+                    {
+                        "name": "St. Murond Temple Story Battle",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "St. Murond Temple Hall Story Battle",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chapel of St. Murond Temple Story Battle",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "254",
+                        "y": "460",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Orbonne",
+                "chest_unopened_img": "/images/locations/crystal.png",
+                "chest_opened_img": "/images/locations/crystalfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Underground Book Storage 1 Story Battle",
+                        "access_rules": ["^$checkbattlelevel|9"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Underground Book Storage 2 Story Battle",
+                        "access_rules": ["^$checkbattlelevel|9"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Underground Book Storage 3 Story Battle",
+                        "access_rules": ["^$checkbattlelevel|9"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orbonne Monastery Shop Unlock",
+                        "access_rules": ["^$checkbattlelevel|9"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Underground Book Storage 4 Story Battle",
+                        "access_rules": ["^$checkbattlelevel|14"],
+                        "visibility_rules": ["$altimaonlyon"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Underground Book Storage 5 Story Battle",
+                        "access_rules": ["^$checkbattlelevel|14"],
+                        "visibility_rules": ["$altimaonlyon"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Murond Death City Story Battle",
+                        "access_rules": ["^$checkbattlelevel|14"],
+                        "visibility_rules": ["$altimaonlyon"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lost Sacred Precincts Story Battle",
+                        "access_rules": ["^$checkbattlelevel|14"],
+                        "visibility_rules": ["$altimaonlyon"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Graveyard of Airships 1 Story Battle",
+                        "access_rules": ["^$checkbattlelevel|14"],
+                        "visibility_rules": ["$altimaonlyon"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "456",
+                        "y": "410",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Goug",
+                "chest_unopened_img": "/images/locations/crystal.png",
+                "chest_opened_img": "/images/locations/crystalfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkbattlelevel|6"
+                ],
+                "sections": [
+                    {
+                        "name": "Slums of Goug Story Battle",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Recruit Mustadio",
+						"chest_unopened_img": "/images/locations/mustadioformation.png",
+						"chest_opened_img": "/images/locations/mustadioformationfound.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "310",
+                        "y": "578",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Deep Dungeon",
+                "chest_unopened_img": "/images/locations/crystal.png",
+                "chest_opened_img": "/images/locations/crystalfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "lionelpass, ^$checkbattlelevel|8"
+                ],
+				"visibility_rules": [
+				    "$sidequestson"
+				],
+                "sections": [
+                    {
+                        "name": "NOGIAS Sidequest Battle",
+						"chest_unopened_img": "/images/locations/sidequestcrystal.png",
+						"chest_opened_img": "/images/locations/sidequestcrystalfound.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "TERMINATE Sidequest Battle",
+						"chest_unopened_img": "/images/locations/sidequestcrystal.png",
+						"chest_opened_img": "/images/locations/sidequestcrystalfound.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "DELTA Sidequest Battle",
+						"chest_unopened_img": "/images/locations/sidequestcrystal.png",
+						"chest_opened_img": "/images/locations/sidequestcrystalfound.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "VALKYRIES Sidequest Battle",
+						"chest_unopened_img": "/images/locations/sidequestcrystal.png",
+						"chest_opened_img": "/images/locations/sidequestcrystalfound.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "MLAPAN Sidequest Battle",
+						"chest_unopened_img": "/images/locations/sidequestcrystal.png",
+						"chest_opened_img": "/images/locations/sidequestcrystalfound.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "TIGER Sidequest Battle",
+						"chest_unopened_img": "/images/locations/sidequestcrystal.png",
+						"chest_opened_img": "/images/locations/sidequestcrystalfound.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "BRIDGE Sidequest Battle",
+						"chest_unopened_img": "/images/locations/sidequestcrystal.png",
+						"chest_opened_img": "/images/locations/sidequestcrystalfound.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "VOYAGE Sidequest Battle",
+						"chest_unopened_img": "/images/locations/sidequestcrystal.png",
+						"chest_opened_img": "/images/locations/sidequestcrystalfound.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "HORROR Sidequest Battle",
+						"chest_unopened_img": "/images/locations/sidequestcrystal.png",
+						"chest_opened_img": "/images/locations/sidequestcrystalfound.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "END Sidequest Battle",
+						"chest_unopened_img": "/images/locations/sidequestcrystal.png",
+						"chest_opened_img": "/images/locations/sidequestcrystalfound.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Recruit Byblos",
+						"chest_unopened_img": "/images/locations/byblosformation.png",
+						"chest_opened_img": "/images/locations/byblosformationfound.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "768",
+                        "y": "600",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Murond Death City",
+                "chest_unopened_img": "/images/locations/crystal.png",
+                "chest_opened_img": "/images/locations/crystalfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "lionelpass, $checkstonecount"
+                ],
+                "sections": [
+					{
+                        "name": "Underground Book Storage 4 Story Battle",
+                        "access_rules": ["^$checkbattlelevel|14"],
+                        "visibility_rules": ["$altimaonlyoff"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Underground Book Storage 5 Story Battle",
+                        "access_rules": ["^$checkbattlelevel|14"],
+                        "visibility_rules": ["$altimaonlyoff"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Murond Death City Story Battle",
+                        "access_rules": ["^$checkbattlelevel|14"],
+                        "visibility_rules": ["$altimaonlyoff"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lost Sacred Precincts Story Battle",
+                        "access_rules": ["^$checkbattlelevel|14"],
+                        "visibility_rules": ["$altimaonlyoff"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Graveyard of Airships 1 Story Battle",
+                        "access_rules": ["^$checkbattlelevel|14"],
+                        "visibility_rules": ["$altimaonlyoff"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Graveyard of Airships 2 Story Battle",
+						"chest_unopened_img": "/images/locations/altima.png",
+						"chest_opened_img": "/images/locations/altimafound.png",
+                        "access_rules": ["^$checkbattlelevel|14, $checkstonecount"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "770",
+                        "y": "524",
+                        "size": 12
+                    }
+                ]
+            }
+        ]
+    }
+]

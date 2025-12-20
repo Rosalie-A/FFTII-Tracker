@@ -1,0 +1,320 @@
+[
+    {
+        "name": "Poach Reference",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+		"visibility_rules": [
+		    "$poacheson"
+		],
+		"map_locations": [
+			{
+				"map": "World Map",
+				"x": "8",
+				"y": "8",
+				"size": 12,
+				"shape": "diamond"
+			}
+		],
+		"sections": [
+			{
+				"name": "Yellow Chocobo",
+				"ref": "Yellow Chocobo/Poach Yellow Chocobo"
+			},
+			{
+				"name": "Black Chocobo",
+				"ref": "Black Chocobo/Poach Black Chocobo"
+			},
+			{
+				"name": "Red Chocobo",
+				"ref": "Red Chocobo/Poach Red Chocobo"
+			},
+			{
+				"name": "Goblin",
+				"ref": "Goblin/Poach Goblin"
+			},
+			{
+				"name": "Black Goblin",
+				"ref": "Black Goblin/Poach Black Goblin"
+			},
+			{
+				"name": "Gobbledeguck",
+				"ref": "Gobbledeguck/Poach Gobbledeguck"
+			},
+			{
+				"name": "Bomb",
+				"ref": "Bomb/Poach Bomb"
+			},
+			{
+				"name": "Grenade",
+				"ref": "Grenade/Poach Grenade"
+			},
+			{
+				"name": "Explosive",
+				"ref": "Explosive/Poach Explosive"
+			},
+			{
+				"name": "Red Panther",
+				"ref": "Red Panther/Poach Red Panther"
+			},
+			{
+				"name": "Cuar",
+				"ref": "Cuar/Poach Cuar"
+			},
+			{
+				"name": "Vampire",
+				"ref": "Vampire/Poach Vampire"
+			},
+			{
+				"name": "Pisco Demon",
+				"ref": "Pisco Demon/Poach Pisco Demon"
+			},
+			{
+				"name": "Squidlarkin",
+				"ref": "Squidlarkin/Poach Squidlarkin"
+			},
+			{
+				"name": "Mindflare",
+				"ref": "Mindflare/Poach Mindflare"
+			},
+			{
+				"name": "Skeleton",
+				"ref": "Skeleton/Poach Skeleton"
+			},
+			{
+				"name": "Bone Snatch",
+				"ref": "Bone Snatch/Poach Bone Snatch"
+			},
+			{
+				"name": "Living Bone",
+				"ref": "Living Bone/Poach Living Bone"
+			},
+			{
+				"name": "Ghoul",
+				"ref": "Ghoul/Poach Ghoul"
+			},
+			{
+				"name": "Gust",
+				"ref": "Gust/Poach Gust"
+			},
+			{
+				"name": "Revnant",
+				"ref": "Revnant/Poach Revnant"
+			},
+			{
+				"name": "Floatiball",
+				"ref": "Floatiball/Poach Floatiball"
+			},
+			{
+				"name": "Ahriman",
+				"ref": "Ahriman/Poach Ahriman"
+			},
+			{
+				"name": "Plague",
+				"ref": "Plague/Poach Plague"
+			},
+			{
+				"name": "Juravis",
+				"ref": "Juravis/Poach Juravis"
+			},
+			{
+				"name": "Steel Hawk",
+				"ref": "Steel Hawk/Poach Steel Hawk"
+			},
+			{
+				"name": "Cocatoris",
+				"ref": "Cocatoris/Poach Cocatoris"
+			},
+			{
+				"name": "Uribo",
+				"ref": "Uribo/Poach Uribo"
+			},
+			{
+				"name": "Porky",
+				"ref": "Porky/Poach Porky"
+			},
+			{
+				"name": "Wildbow",
+				"ref": "Wildbow/Poach Wildbow"
+			},
+			{
+				"name": "Woodman",
+				"ref": "Woodman/Poach Woodman"
+			},
+			{
+				"name": "Trent",
+				"ref": "Trent/Poach Trent"
+			},
+			{
+				"name": "Taiju",
+				"ref": "Taiju/Poach Taiju"
+			},
+			{
+				"name": "Bull Demon",
+				"ref": "Bull Demon/Poach Bull Demon"
+			},
+			{
+				"name": "Minitaurus",
+				"ref": "Minitaurus/Poach Minitaurus"
+			},
+			{
+				"name": "Sacred",
+				"ref": "Sacred/Poach Sacred"
+			},
+			{
+				"name": "Morbol",
+				"ref": "Morbol/Poach Morbol"
+			},
+			{
+				"name": "Ochu",
+				"ref": "Ochu/Poach Ochu"
+			},
+			{
+				"name": "Great Morbol",
+				"ref": "Great Morbol/Poach Great Morbol"
+			},
+			{
+				"name": "Behemoth",
+				"ref": "Behemoth/Poach Behemoth"
+			},
+			{
+				"name": "King Behemoth",
+				"ref": "King Behemoth/Poach King Behemoth"
+			},
+			{
+				"name": "Dark Behemoth",
+				"ref": "Dark Behemoth/Poach Dark Behemoth"
+			},
+			{
+				"name": "Dragon",
+				"ref": "Dragon/Poach Dragon"
+			},
+			{
+				"name": "Blue Dragon",
+				"ref": "Blue Dragon/Poach Blue Dragon"
+			},
+			{
+				"name": "Red Dragon",
+				"ref": "Red Dragon/Poach Red Dragon"
+			},
+			{
+				"name": "Hyudra",
+				"ref": "Hyudra/Poach Hyudra"
+			},
+			{
+				"name": "Hydra",
+				"ref": "Hydra/Poach Hydra"
+			},
+			{
+				"name": "Tiamat",
+				"ref": "Tiamat/Poach Tiamat"
+			}
+		]
+    },
+	{
+        "name": "Job Unlock Reference",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+		"visibility_rules": [
+		    "$jobunlockson"
+		],
+		"map_locations": [
+			{
+				"map": "World Map",
+				"x": "8",
+				"y": "24",
+				"size": 12,
+				"shape": "diamond"
+			}
+		],
+		"sections": [
+			{
+				"name": "Squire",
+				"ref": "Squire/Squire Unlock"
+			},
+			{
+				"name": "Knight",
+				"ref": "Knight/Knight Unlock"
+			},
+			{
+				"name": "Archer",
+				"ref": "Archer/Archer Unlock"
+			},
+			{
+				"name": "Monk",
+				"ref": "Monk/Monk Unlock"
+			},
+			{
+				"name": "Thief",
+				"ref": "Thief/Thief Unlock"
+			},
+			{
+				"name": "Geomancer",
+				"ref": "Geomancer/Geomancer Unlock"
+			},
+			{
+				"name": "Lancer",
+				"ref": "Lancer/Lancer Unlock"
+			},
+			{
+				"name": "Samurai",
+				"ref": "Samurai/Samurai Unlock"
+			},
+			{
+				"name": "Ninja",
+				"ref": "Ninja/Ninja Unlock"
+			},
+			{
+				"name": "Dancer",
+				"ref": "Dancer/Dancer Unlock"
+			},
+			{
+				"name": "Chemist",
+				"ref": "Chemist/Chemist Unlock"
+			},
+			{
+				"name": "Priest",
+				"ref": "Priest/Priest Unlock"
+			},
+			{
+				"name": "Wizard",
+				"ref": "Wizard/Wizard Unlock"
+			},
+			{
+				"name": "Oracle",
+				"ref": "Oracle/Oracle Unlock"
+			},
+			{
+				"name": "Time Mage",
+				"ref": "Time Mage/Time Mage Unlock"
+			},
+			{
+				"name": "Mediator",
+				"ref": "Mediator/Mediator Unlock"
+			},
+			{
+				"name": "Summoner",
+				"ref": "Summoner/Summoner Unlock"
+			},
+			{
+				"name": "Calculator",
+				"ref": "Calculator/Calculator Unlock"
+			},
+			{
+				"name": "Bard",
+				"ref": "Bard/Bard Unlock"
+			},
+			{
+				"name": "Mime",
+				"ref": "Mime/Mime Unlock"
+			}
+		]
+    }
+]

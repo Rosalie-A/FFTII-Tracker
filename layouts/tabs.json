@@ -1,0 +1,76 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "World Map",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "World Map"
+                    ]
+                }
+            },
+            {
+                "title": "Jobs",
+                "content": {
+                    "type": "container",
+                    "content": [
+						{
+							"type": "map",
+							"maps": [
+								"Job Tree"
+							]
+						}
+                    ]
+                }
+            },
+            {
+                "title": "Poaches",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Poaches"
+                    ]
+                }
+            }
+        ]
+    },
+    "tabbed_maps_vertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "World Map",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "World Map"
+                    ]
+                }
+            },
+            {
+                "title": "Jobs",
+                "content": {
+                    "type": "container",
+                    "content": [
+						{
+							"type": "map",
+							"maps": [
+								"Job Tree"
+							]
+						}
+                    ]
+                }
+            },
+            {
+                "title": "Poaches",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Poaches"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "tracker_horizontal": {
+        "type": "container",
+        "background": "#00000000",
+        "content": {
+            "type": "array",
+			"orientation": "horizontal",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Key Items",
+                            "dock": "top",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "left",
+                                "v_alignment": "center",
+                                "key": "key_items"
+                            }
+                        },
+						{
+                            "type": "group",
+                            "header": "Characters and Jobs",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "left",
+                                "v_alignment": "center",
+                                "key": "characters_and_jobs_vertical"
+                            }
+                        },
+						{
+                            "type": "group",
+                            "header": "Settings",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "left",
+                                "v_alignment": "center",
+                                "key": "settings"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "content": {
+                        "type": "layout",
+                        "key": "tabbed_maps_vertical"
+                    }
+                }
+            ]
+        }
+    },
+    "tracker_vertical": {
+        "type": "container",
+        "background": "#00000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Key Items",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "key_items"
+                            }
+                        },
+						{
+                            "type": "group",
+                            "header": "Characters and Jobs",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "characters_and_jobs_horizontal"
+                            }
+                        },
+						{
+                            "type": "group",
+                            "header": "Settings",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "left",
+                                "v_alignment": "center",
+                                "key": "settings"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "content": {
+                        "type": "layout",
+                        "key": "tabbed_maps_horizontal"
+                    }
+                }
+            ]
+        }
+    }
+}

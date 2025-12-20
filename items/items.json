@@ -1,0 +1,700 @@
+[
+    {
+        "name": "Zeltennia Pass",
+        "type": "toggle",
+        "img": "images/items/passes/zeltennia_passlarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "zeltenniapass"
+    },
+    {
+        "name": "Geomancer",
+        "type": "toggle",
+        "img": "images/items/jobs/geomancerm.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "geomancer"
+    },
+    {
+        "name": "Knight",
+        "type": "toggle",
+        "img": "images/items/jobs/knightm.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "knight"
+    },
+    {
+        "name": "Calculator",
+        "type": "toggle",
+        "img": "images/items/jobs/calculatorf.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "calculator"
+    },
+    {
+        "name": "Murond Pass",
+        "type": "toggle",
+        "img": "images/items/passes/murond_passlarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "murondpass"
+    },
+    {
+        "name": "Wizard",
+        "type": "toggle",
+        "img": "images/items/jobs/wizardf.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "wizard"
+    },
+    {
+        "name": "Cloud",
+        "type": "toggle",
+        "img": "images/items/characters/cloudlarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cloud"
+    },
+    {
+        "name": "Scorpio",
+        "type": "toggle",
+        "img": "images/items/stones/scorpio.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "scorpio"
+    },
+    {
+        "name": "Boco",
+        "type": "toggle",
+        "img": "images/items/characters/bocolarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "boco"
+    },
+    {
+        "name": "Serpentarius",
+        "type": "toggle",
+        "img": "images/items/stones/serpentarius.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "serpentarius"
+    },
+    {
+        "name": "Libra",
+        "type": "toggle",
+        "img": "images/items/stones/libra.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "libra"
+    },
+    {
+        "name": "Leo",
+        "type": "toggle",
+        "img": "images/items/stones/leo.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "leo"
+    },
+    {
+        "name": "Summoner",
+        "type": "toggle",
+        "img": "images/items/jobs/summonerf.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "summoner"
+    },
+    {
+        "name": "Bard",
+        "type": "toggle",
+        "img": "images/items/jobs/bard.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bard"
+    },
+    {
+        "name": "Time Mage",
+        "type": "toggle",
+        "img": "images/items/jobs/timemagef.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "timemage"
+    },
+    {
+        "name": "Archer",
+        "type": "toggle",
+        "img": "images/items/jobs/archerm.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "archer"
+    },
+    {
+        "name": "Rad",
+        "type": "toggle",
+        "img": "images/items/characters/radlarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rad"
+    },
+    {
+        "name": "Gemini",
+        "type": "toggle",
+        "img": "images/items/stones/gemini.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gemini"
+    },
+    {
+        "name": "Farlem",
+        "type": "toggle",
+        "img": "images/items/farlem.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "farlem"
+    },
+    {
+        "name": "Malak",
+        "type": "toggle",
+        "img": "images/items/characters/malaklarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "malak"
+    },
+    {
+        "name": "Samurai",
+        "type": "toggle",
+        "img": "images/items/jobs/samuraim.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "samurai"
+    },
+    {
+        "name": "Reis (Human)",
+        "type": "toggle",
+        "img": "images/items/characters/reishumanlarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "reishuman"
+    },
+    {
+        "name": "Lesalia Pass",
+        "type": "toggle",
+        "img": "images/items/passes/lesalia_passlarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lesaliapass"
+    },
+    {
+        "name": "Aquarius",
+        "type": "toggle",
+        "img": "images/items/stones/aquarius.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "aquarius"
+    },
+    {
+        "name": "Sagittarius",
+        "type": "toggle",
+        "img": "images/items/stones/sagittarius.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sagittarius"
+    },
+    {
+        "name": "Fovoham Pass",
+        "type": "toggle",
+        "img": "images/items/passes/fovoham_passlarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fovohampass"
+    },
+    {
+        "name": "Mime",
+        "type": "toggle",
+        "img": "images/items/jobs/mimef.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mime"
+    },
+    {
+        "name": "Beowulf",
+        "type": "toggle",
+        "img": "images/items/characters/beowulflarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "beowulf"
+    },
+    {
+        "name": "Gallione Pass",
+        "type": "toggle",
+        "img": "images/items/passes/gallione_passlarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": true,
+        "overlay_align": "right",
+        "codes": "gallionepass"
+    },
+    {
+        "name": "Thief",
+        "type": "toggle",
+        "img": "images/items/jobs/thiefm.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thief"
+    },
+    {
+        "name": "Oracle",
+        "type": "toggle",
+        "img": "images/items/jobs/oraclef.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "oracle"
+    },
+    {
+        "name": "Worker 8",
+        "type": "toggle",
+        "img": "images/items/characters/worker8large.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "worker8"
+    },
+    {
+        "name": "Rafa",
+        "type": "toggle",
+        "img": "images/items/characters/rafalarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rafa"
+    },
+    {
+        "name": "Monk",
+        "type": "toggle",
+        "img": "images/items/jobs/monkm.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "monk"
+    },
+	{
+		"name": "Shop Level",
+		"type": "consumable",
+		"img": "images/items/shoplevel.png",
+		"max_quantity": 14,
+		"increment": 1,
+		"decrement": 1,
+		"initial_quantity": 0,
+		"overlay_background": "#000000",
+		"overlay_font_size": 16,
+		"codes": "progressiveshoplevel"
+	},
+    {
+        "name": "Orlandu",
+        "type": "toggle",
+        "img": "images/items/characters/orlandularge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "orlandu"
+    },
+    {
+        "name": "Lionel Pass",
+        "type": "toggle",
+        "img": "images/items/passes/lionel_passlarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lionelpass"
+    },
+    {
+        "name": "Mustadio",
+        "type": "toggle",
+        "img": "images/items/characters/mustadiolarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mustadio"
+    },
+    {
+        "name": "Pisces",
+        "type": "toggle",
+        "img": "images/items/stones/pisces.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pisces"
+    },
+    {
+        "name": "Taurus",
+        "type": "toggle",
+        "img": "images/items/stones/taurus.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "taurus"
+    },
+    {
+        "name": "Chemist",
+        "type": "toggle",
+        "img": "images/items/jobs/chemistf.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "chemist"
+    },
+    {
+        "name": "Squire",
+        "type": "toggle",
+        "img": "images/items/jobs/squirem.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": true,
+        "overlay_align": "right",
+        "codes": "squire"
+    },
+    {
+        "name": "Byblos",
+        "type": "toggle",
+        "img": "images/items/characters/bybloslarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "byblos"
+    },
+    {
+        "name": "Virgo",
+        "type": "toggle",
+        "img": "images/items/stones/virgo.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "virgo"
+    },
+    {
+        "name": "Limberry Pass",
+        "type": "toggle",
+        "img": "images/items/passes/limberry_passlarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "limberrypass"
+    },
+    {
+        "name": "Lancer",
+        "type": "toggle",
+        "img": "images/items/jobs/lancerm.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lancer"
+    },
+    {
+        "name": "Agrias",
+        "type": "toggle",
+        "img": "images/items/characters/agriaslarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "agrias"
+    },
+    {
+        "name": "Mediator",
+        "type": "toggle",
+        "img": "images/items/jobs/mediatorf.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mediator"
+    },
+    {
+        "name": "Reis (Dragon)",
+        "type": "toggle",
+        "img": "images/items/characters/reisdragonlarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "reisdragon"
+    },
+    {
+        "name": "Capricorn",
+        "type": "toggle",
+        "img": "images/items/stones/capricorn.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "capricorn"
+    },
+    {
+        "name": "Cancer",
+        "type": "toggle",
+        "img": "images/items/stones/cancer.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cancer"
+    },
+    {
+        "name": "Ninja",
+        "type": "toggle",
+        "img": "images/items/jobs/ninjam.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ninja"
+    },
+    {
+        "name": "Dancer",
+        "type": "toggle",
+        "img": "images/items/jobs/dancer.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dancer"
+    },
+    {
+        "name": "Priest",
+        "type": "toggle",
+        "img": "images/items/jobs/priestf.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "priest"
+    },
+	{
+		"name": "Progressive Ramza Job Form",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/items/characters/ramza1large.png",
+				"codes": "ramza1"
+			},
+			{
+				"img": "images/items/characters/ramza23large.png",
+				"codes": "ramza23"
+			},
+			{
+				"img": "images/items/characters/ramza4large.png",
+				"codes": "ramza4"
+			}
+		]
+	},
+    {
+        "name": "Meliadoul",
+        "type": "toggle",
+        "img": "images/items/characters/meliadoullarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "meliadoul"
+    },
+    {
+        "name": "Lavian",
+        "type": "toggle",
+        "img": "images/items/characters/lavianlarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lavian"
+    },
+    {
+        "name": "Alicia",
+        "type": "toggle",
+        "img": "images/items/characters/alicialarge.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "alicia"
+    },
+    {
+        "name": "Aries",
+        "type": "toggle",
+        "img": "images/items/stones/aries.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "aries"
+    },
+    {
+        "name": "Update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    },
+	{
+		"name": "Altima Only",
+		"type": "toggle",
+        "img": "images/settings/altimaonly.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "altimaonly"
+	},
+	{
+		"name": "Sidequests",
+		"type": "toggle",
+        "img": "images/settings/sidequests.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sidequests"
+	},
+	{
+		"name": "Rare Battles",
+		"type": "toggle",
+        "img": "images/settings/rarebattles.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rarebattles"
+	},
+	{
+		"name": "Job Unlocks",
+		"type": "toggle",
+        "img": "images/settings/jobunlocks.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jobunlocks"
+	},
+	{
+		"name": "Poaches",
+		"type": "toggle",
+        "img": "images/settings/poaches.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "poaches"
+	},
+	{
+		"name": "Required Stones",
+		"type": "consumable",
+		"img": "images/items/stones/virgo.png",
+		"max_quantity": 13,
+		"increment": 1,
+		"decrement": 1,
+		"initial_quantity": 6,
+		"overlay_background": "#000000",
+		"overlay_font_size": 16,
+		"codes": "requiredstones"
+	},
+	{
+		"name": "Logical Difficulty",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/settings/goblin.png",
+				"codes": "easydifficulty"
+			},
+			{
+				"img": "images/settings/redchocobo.png",
+				"codes": "normaldifficulty"
+			},
+			{
+				"img": "images/settings/tiamat.png",
+				"codes": "difficultdifficulty"
+			},
+			{
+				"img": "images/settings/ultimademon.png",
+				"codes": "extremedifficulty"
+			}
+		]
+	}
+]

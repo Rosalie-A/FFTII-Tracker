@@ -1,0 +1,643 @@
+[
+    {
+        "name": "Jobs",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "visibility_rules": [
+            "$jobunlockson"
+        ],
+		"children": [
+			{
+				"name": "Squire",
+				"chest_unopened_img": "/images/locations/jobs/squire.png",
+                "chest_opened_img": "/images/locations/jobs/squirefound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+				"sections": [
+					{
+						"name": "Squire Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "150",
+                        "y": "46",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Knight",
+				"chest_unopened_img": "/images/locations/jobs/knight.png",
+                "chest_opened_img": "/images/locations/jobs/knightfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "squire"
+                ],
+				"sections": [
+					{
+						"name": "Knight Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "130",
+                        "y": "136",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Archer",
+				"chest_unopened_img": "/images/locations/jobs/archer.png",
+                "chest_opened_img": "/images/locations/jobs/archerfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "squire"
+                ],
+				"sections": [
+					{
+						"name": "Archer Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "170",
+                        "y": "136",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Monk",
+				"chest_unopened_img": "/images/locations/jobs/monk.png",
+                "chest_opened_img": "/images/locations/jobs/monkfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "knight"
+                ],
+				"sections": [
+					{
+						"name": "Monk Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "98",
+                        "y": "224",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Thief",
+				"chest_unopened_img": "/images/locations/jobs/thief.png",
+                "chest_opened_img": "/images/locations/jobs/thieffound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "archer"
+                ],
+				"sections": [
+					{
+						"name": "Thief Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "202",
+                        "y": "224",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Geomancer",
+				"chest_unopened_img": "/images/locations/jobs/geomancer.png",
+                "chest_opened_img": "/images/locations/jobs/geomancerfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "monk"
+                ],
+				"sections": [
+					{
+						"name": "Geomancer Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "170",
+                        "y": "316",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Lancer",
+				"chest_unopened_img": "/images/locations/jobs/lancer.png",
+                "chest_opened_img": "/images/locations/jobs/lancerfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "thief"
+                ],
+				"sections": [
+					{
+						"name": "Lancer Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "130",
+                        "y": "316",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Samurai",
+				"chest_unopened_img": "/images/locations/jobs/samurai.png",
+                "chest_opened_img": "/images/locations/jobs/samuraifound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ["knight", "monk", "lancer"]
+                ],
+				"sections": [
+					{
+						"name": "Samurai Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "30",
+                        "y": "224",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Ninja",
+				"chest_unopened_img": "/images/locations/jobs/ninja.png",
+                "chest_opened_img": "/images/locations/jobs/ninjafound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ["archer", "thief", "geomancer"]
+                ],
+				"sections": [
+					{
+						"name": "Ninja Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "270",
+                        "y": "224",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Dancer",
+				"chest_unopened_img": "/images/locations/jobs/dancer.png",
+                "chest_opened_img": "/images/locations/jobs/dancerfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ["lancer", "geomancer"]
+                ],
+				"sections": [
+					{
+						"name": "Dancer Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "150",
+                        "y": "396",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Chemist",
+				"chest_unopened_img": "/images/locations/jobs/chemist.png",
+                "chest_opened_img": "/images/locations/jobs/chemistfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+				"sections": [
+					{
+						"name": "Chemist Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "455",
+                        "y": "46",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Priest",
+				"chest_unopened_img": "/images/locations/jobs/priest.png",
+                "chest_opened_img": "/images/locations/jobs/priestfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "chemist"
+                ],
+				"sections": [
+					{
+						"name": "Priest Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "375",
+                        "y": "126",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Wizard",
+				"chest_unopened_img": "/images/locations/jobs/wizard.png",
+                "chest_opened_img": "/images/locations/jobs/wizardfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "chemist"
+                ],
+				"sections": [
+					{
+						"name": "Wizard Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "535",
+                        "y": "126",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Oracle",
+				"chest_unopened_img": "/images/locations/jobs/oracle.png",
+                "chest_opened_img": "/images/locations/jobs/oraclefound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "priest"
+                ],
+				"sections": [
+					{
+						"name": "Oracle Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "375",
+                        "y": "224",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Time Mage",
+				"chest_unopened_img": "/images/locations/jobs/timemage.png",
+                "chest_opened_img": "/images/locations/jobs/timemagefound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "wizard"
+                ],
+				"sections": [
+					{
+						"name": "Time Mage Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "535",
+                        "y": "224",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Mediator",
+				"chest_unopened_img": "/images/locations/jobs/mediator.png",
+                "chest_opened_img": "/images/locations/jobs/mediatorfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "oracle"
+                ],
+				"sections": [
+					{
+						"name": "Mediator Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "375",
+                        "y": "316",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Summoner",
+				"chest_unopened_img": "/images/locations/jobs/summoner.png",
+                "chest_opened_img": "/images/locations/jobs/summonerfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "timemage"
+                ],
+				"sections": [
+					{
+						"name": "Summoner Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "535",
+                        "y": "316",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Calculator",
+				"chest_unopened_img": "/images/locations/jobs/calculator.png",
+                "chest_opened_img": "/images/locations/jobs/calculatorfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ["priest", "wizard", "oracle", "timemage"]
+                ],
+				"sections": [
+					{
+						"name": "Calculator Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "455",
+                        "y": "174",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Bard",
+				"chest_unopened_img": "/images/locations/jobs/bard.png",
+                "chest_opened_img": "/images/locations/jobs/bardfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ["mediator", "summoner"]
+                ],
+				"sections": [
+					{
+						"name": "Bard Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "455",
+                        "y": "316",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Mime",
+				"chest_unopened_img": "/images/locations/jobs/mime.png",
+                "chest_opened_img": "/images/locations/jobs/mimefound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ["squire", "chemist", "lancer", "geomancer", "mediator", "summoner"]
+                ],
+				"sections": [
+					{
+						"name": "Mime Unlock",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Job Tree",
+                        "x": "310",
+                        "y": "46",
+                        "size": 8
+                    }
+                ]
+			}
+		],
+        "sections": [
+            {
+                "name": "Squire Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Chemist Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Knight Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Archer Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Thief Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Monk Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Priest Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Wizard Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Time Mage Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Summoner Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Oracle Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Mediator Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Geomancer Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Lancer Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Samurai Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Ninja Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Calculator Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Bard Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Dancer Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Mime Unlock",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Unused",
+                "x": "595",
+                "y": "916",
+                "size": 6
+            }
+        ]
+    }
+]

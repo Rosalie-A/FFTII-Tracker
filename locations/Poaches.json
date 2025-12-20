@@ -1,0 +1,1702 @@
+[
+    {
+        "name": "Poaches",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "thief, ^$checkpoachbattlelevel|0"
+        ],
+		"visibility_rules": [
+			"$poacheson"
+		],
+		"children": [
+			{
+				"name": "Yellow Chocobo",
+				"chest_unopened_img": "/images/locations/monsters/yellowchocobo.png",
+                "chest_opened_img": "/images/locations/monsters/yellowchocobofound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+					" "
+                ],
+				"sections": [
+					{
+						"name": "Poach Yellow Chocobo",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "28",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Black Chocobo",
+				"chest_unopened_img": "/images/locations/monsters/blackchocobo.png",
+                "chest_opened_img": "/images/locations/monsters/blackchocobofound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|5",
+					"fovohampass",
+					"lesaliapass, lionelpass",
+					"lesaliapass, limberrypass, ^$checkpoachbattlelevel|2",
+					"mediator, @Yellow Chocobo/Poach Yellow Chocobo"
+                ],
+				"sections": [
+					{
+						"name": "Poach Black Chocobo",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "28",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Red Chocobo",
+				"chest_unopened_img": "/images/locations/monsters/redchocobo.png",
+                "chest_opened_img": "/images/locations/monsters/redchocobofound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|5",
+                    "fovohampass, lesaliapass, ^$checkpoachbattlelevel|2",
+					"lesaliapass, lionelpass",
+					"murondpass, lionelpass",
+					"fovohampass, zeltenniapass",
+					"lesaliapass, limberrypass, zeltenniapass",
+					"mediator, @Yellow Chocobo/Poach Yellow Chocobo",
+					"mediator, @Black Chocobo/Poach Black Chocobo"
+                ],
+				"sections": [
+					{
+						"name": "Poach Red Chocobo",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "28",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Goblin",
+				"chest_unopened_img": "/images/locations/monsters/goblin.png",
+                "chest_opened_img": "/images/locations/monsters/goblinfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+					" "
+                ],
+				"sections": [
+					{
+						"name": "Poach Goblin",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "60",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Black Goblin",
+				"chest_unopened_img": "/images/locations/monsters/blackgoblin.png",
+                "chest_opened_img": "/images/locations/monsters/blackgoblinfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+					" "
+                ],
+				"sections": [
+					{
+						"name": "Poach Black Goblin",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "60",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Gobbledeguck",
+				"chest_unopened_img": "/images/locations/monsters/gobbledeguck.png",
+                "chest_opened_img": "/images/locations/monsters/gobbledeguckfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+					"^$checkpoachbattlelevel|5",
+					"lesaliapass, lionelpass, ^$checkpoachbattlelevel|2",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|2",
+					"mediator, @Goblin/Poach Goblin",
+					"mediator, @Black Goblin/Poach Black Goblin"
+                ],
+				"sections": [
+					{
+						"name": "Poach Gobbledeguck",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "60",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Bomb",
+				"chest_unopened_img": "/images/locations/monsters/bomb.png",
+                "chest_opened_img": "/images/locations/monsters/bombfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+				"sections": [
+					{
+						"name": "Poach Bomb",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "92",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Grenade",
+				"chest_unopened_img": "/images/locations/monsters/grenade.png",
+                "chest_opened_img": "/images/locations/monsters/grenadefound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|5",
+					"fovohampass",
+					"lesaliapass",
+					"mediator, @Bomb/Poach Bomb",
+					"mediator, @Explosive/Poach Explosive"
+                ],
+				"sections": [
+					{
+						"name": "Poach Grenade",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "92",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Explosive",
+				"chest_unopened_img": "/images/locations/monsters/explosive.png",
+                "chest_opened_img": "/images/locations/monsters/explosivefound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|8",
+					"fovohampass, zeltenniapass, ^$checkpoachbattlelevel|5",
+					"lesaliapass, ^$checkpoachbattlelevel|5",
+					"fovohampass, lesaliapass, ^$checkpoachbattlelevel|2",
+					"lionelpass, murondpass, ^$checkpoachbattlelevel|5",
+					"fovohampass, zeltenniapass, limberrypass",
+					"lesaliapass, limberrypass",
+					"mediator, @Bomb/Poach Bomb",
+					"mediator, @Grenade/Poach Grenade"
+                ],
+				"sections": [
+					{
+						"name": "Poach Explosive",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "92",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Red Panther",
+				"chest_unopened_img": "/images/locations/monsters/redpanther.png",
+                "chest_opened_img": "/images/locations/monsters/redpantherfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+				"sections": [
+					{
+						"name": "Poach Red Panther",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "124",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Cuar",
+				"chest_unopened_img": "/images/locations/monsters/cuar.png",
+                "chest_opened_img": "/images/locations/monsters/cuarfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|5",
+					"fovohampass, ^$checkpoachbattlelevel|2",
+					"lesaliapass",
+					"lionelpass, murondpass, ^$checkpoachbattlelevel|2",
+					"fovohampass, zeltenniapass",
+					"mediator, @Red Panther/Poach Red Panther",
+					"mediator, @Vampire/Poach Vampire"
+                ],
+				"sections": [
+					{
+						"name": "Poach Cuar",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "124",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Vampire",
+				"chest_unopened_img": "/images/locations/monsters/vampire.png",
+                "chest_opened_img": "/images/locations/monsters/vampirefound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|5",
+					"lesaliapass, lionelpass, ^$checkpoachbattlelevel|2",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|2",
+					"lesaliapass, limberrypass, zeltenniapass ^$checkpoachbattlelevel|2",
+					"fovohampass, limberrypass, zeltenniapass ^$checkpoachbattlelevel|2",
+					"mediator, @Cuar/Poach Cuar",
+					"mediator, @Vampire/Poach Vampire"
+                ],
+				"sections": [
+					{
+						"name": "Poach Vampire",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "124",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Pisco Demon",
+				"chest_unopened_img": "/images/locations/monsters/piscodemon.png",
+                "chest_opened_img": "/images/locations/monsters/piscodemonfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|2",
+                    "fovohampass",
+					"lesaliapass",
+					"murondpass, lionelpass",
+					"mediator, @Squidlarkin/Poach Squidlarkin"
+                ],
+				"sections": [
+					{
+						"name": "Poach Pisco Demon",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "156",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Squidlarkin",
+				"chest_unopened_img": "/images/locations/monsters/squidlarkin.png",
+                "chest_opened_img": "/images/locations/monsters/squidlarkinfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|2",
+					"fovohampass",
+					"lesaliapass",
+					"murondpass, lionelpass",
+					"mediator, @Pisco Demon/Poach Pisco Demon"					
+                ],
+				"sections": [
+					{
+						"name": "Poach Squidlarkin",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "156",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Mindflare",
+				"chest_unopened_img": "/images/locations/monsters/mindflare.png",
+                "chest_opened_img": "/images/locations/monsters/mindflarefound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "fovohampass, ^$checkpoachbattlelevel|2",
+					"lesaliapass, lionelpass, ^$checkpoachbattlelevel|2",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|2",
+					"fovohampass, zeltenniapass",
+					"lesaliapass, limberrypass, zeltenniapass",
+					"mediator, @Pisco Demon/Poach Pisco Demon",
+					"mediator, @Squidlarkin/Poach Squidlarkin"
+                ],
+				"sections": [
+					{
+						"name": "Poach Mindflare",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "156",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Skeleton",
+				"chest_unopened_img": "/images/locations/monsters/skeleton.png",
+                "chest_opened_img": "/images/locations/monsters/skeletonfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+				"sections": [
+					{
+						"name": "Poach Skeleton",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "188",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Bone Snatch",
+				"chest_unopened_img": "/images/locations/monsters/bonesnatch.png",
+                "chest_opened_img": "/images/locations/monsters/bonesnatchfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|5",
+					"fovohampass",
+					"lesaliapass",
+					"murondpass, lionelpass",
+					"mediator, @Skeleton/Poach Skeleton",
+					"mediator, @Living Bone/Poach Living Bone"
+                ],
+				"sections": [
+					{
+						"name": "Poach Bone Snatch",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "188",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Living Bone",
+				"chest_unopened_img": "/images/locations/monsters/livingbone.png",
+                "chest_opened_img": "/images/locations/monsters/livingbonefound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|5",
+					"lesaliapass, limberrypass, ^$checkpoachbattlelevel|2",
+					"fovohampass, zeltenniapass, limberrypass, ^$checkpoachbattlelevel|2",
+					"mediator, @Skeleton/Poach Skeleton",
+					"mediator, @Bone Snatch/Poach Bone Snatch"
+                ],
+				"sections": [
+					{
+						"name": "Poach Living Bone",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "188",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Ghoul",
+				"chest_unopened_img": "/images/locations/monsters/ghoul.png",
+                "chest_opened_img": "/images/locations/monsters/ghoulfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "fovohampass",
+					"lesaliapass",
+					"murondpass, lionelpass",
+					"mediator, @Gust/Poach Gust",
+					"mediator, @Revnant/Poach Revnant"
+                ],
+				"sections": [
+					{
+						"name": "Poach Ghoul",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "220",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Gust",
+				"chest_unopened_img": "/images/locations/monsters/gust.png",
+                "chest_opened_img": "/images/locations/monsters/gustfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "fovohampass",
+					"lesaliapass, ^$checkpoachbattlelevel|2",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|2",
+					"lesaliapass, limberrypass",
+					"mediator, @Ghoul/Poach Ghoul",
+					"mediator, @Revnant/Poach Revnant"
+                ],
+				"sections": [
+					{
+						"name": "Poach Gust",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "220",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Revnant",
+				"chest_unopened_img": "/images/locations/monsters/revnant.png",
+                "chest_opened_img": "/images/locations/monsters/revnantfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "fovohampass, ^$checkpoachbattlelevel|5",
+					"lesaliapass, ^$checkpoachbattlelevel|5",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|5",
+					"mediator, @Ghoul/Poach Ghoul",
+					"mediator, @Gust/Poach Gust"
+                ],
+				"sections": [
+					{
+						"name": "Poach Revnant",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "220",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Floatiball",
+				"chest_unopened_img": "/images/locations/monsters/floatiball.png",
+                "chest_opened_img": "/images/locations/monsters/floatiballfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "fovohampass",
+					"lesaliapass",
+					"murondpass, lionelpass"
+                ],
+				"sections": [
+					{
+						"name": "Poach Floatiball",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "252",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Ahriman",
+				"chest_unopened_img": "/images/locations/monsters/ahriman.png",
+                "chest_opened_img": "/images/locations/monsters/ahrimanfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "fovohampass",
+					"lesaliapass, limberrypass",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|2",
+					"mediator, @Floatiball/Poach Floatiball",
+					"mediator, @Floatiball/Poach Plague"
+                ],
+				"sections": [
+					{
+						"name": "Poach Ahriman",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "252",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Plague",
+				"chest_unopened_img": "/images/locations/monsters/plague.png",
+                "chest_opened_img": "/images/locations/monsters/plaguefound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "fovohampass, ^$checkpoachbattlelevel|8",
+					"lesaliapass, fovohampass, ^$checkpoachbattlelevel|5",
+					"lesaliapass, lionelpass, ^$checkpoachbattlelevel|9",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|9",
+					"fovohampass, zeltenniapass, ^$checkpoachbattlelevel|5",
+					"mediator, @Floatiball/Poach Floatiball",
+					"mediator, @Ahriman/Poach Ahriman"
+                ],
+				"sections": [
+					{
+						"name": "Poach Plague",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "252",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Juravis",
+				"chest_unopened_img": "/images/locations/monsters/juravis.png",
+                "chest_opened_img": "/images/locations/monsters/juravisfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "fovohampass",
+					"lesaliapass",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|2",
+					"mediator, @Steel Hawk/Poach Steel Hawk",
+					"mediator, @Cocatoris/Poach Cocatoris"
+                ],
+				"sections": [
+					{
+						"name": "Poach Juravis",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "284",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Steel Hawk",
+				"chest_unopened_img": "/images/locations/monsters/steelhawk.png",
+                "chest_opened_img": "/images/locations/monsters/steelhawkfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "fovohampass, ^$checkpoachbattlelevel|2",
+					"lesaliapass",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|2",
+					"fovohampass, zeltenniapass",
+					"mediator, @Juravis/Poach Juravis",
+					"mediator, @Cocatoris/Poach Cocatoris"
+                ],
+				"sections": [
+					{
+						"name": "Poach Steel Hawk",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "284",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Cocatoris",
+				"chest_unopened_img": "/images/locations/monsters/cocatoris.png",
+                "chest_opened_img": "/images/locations/monsters/cocatorisfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "fovohampass",
+					"lesaliapss, ^$checkpoachbattlelevel|5",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|5",
+					"lesaliapass, limberrypass, zeltenniapass ^$checkpoachbattlelevel|2",
+					"mediator, @Juravis/Poach Juravis",
+					"mediator, @Steel Hawk/Poach Steel Hawk"
+                ],
+				"sections": [
+					{
+						"name": "Poach Cocatoris",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "284",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Uribo",
+				"chest_unopened_img": "/images/locations/monsters/uribo.png",
+                "chest_opened_img": "/images/locations/monsters/uribofound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+					"lesaliapass, ^$checkbattlelevel|8, $sidequestson",
+                    "lesaliapass, lionelpass, ^$checkbattlelevel|6",
+                    "murondpass, lionelpass, ^$checkbattlelevel|6",
+					"fovohampass, zeltenniapass, ^$checkbattlelevel|12",
+					"lesaliapass, limberrypass, ^$checkpoachbattlelevel|2",
+					"fovohampass, zeltenniapass, limberrypass, ^$checkpoachbattlelevel|2"
+                ],
+				"sections": [
+					{
+						"name": "Poach Uribo",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "316",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Porky",
+				"chest_unopened_img": "/images/locations/monsters/porky.png",
+                "chest_opened_img": "/images/locations/monsters/porkyfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "lesaliapass, limberrypass, ^$checkpoachbattlelevel|9",
+					"fovohampass, zeltenniapass, limberrypass, ^$checkpoachbattlelevel|9",
+					"mediator, @Uribo/Poach Uribo"
+                ],
+				"sections": [
+					{
+						"name": "Poach Porky",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "316",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Wildbow",
+				"chest_unopened_img": "/images/locations/monsters/wildbow.png",
+                "chest_opened_img": "/images/locations/monsters/wildbowfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+					"mediator, @Uribo/Poach Uribo",
+					"mediator, @Porky/Poach Porky"
+                ],
+				"sections": [
+					{
+						"name": "Poach Wildbow",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "316",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Woodman",
+				"chest_unopened_img": "/images/locations/monsters/woodman.png",
+                "chest_opened_img": "/images/locations/monsters/woodmanfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|5",
+					"fovohampass",
+					"lesaliapass, limberrypass, zeltenniapass, ^$checkpoachbattlelevel|2",
+					"mediator, @Trent/Poach Trent",
+					"mediator, @Taiju/Poach Taiju"
+                ],
+				"sections": [
+					{
+						"name": "Poach Woodman",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "348",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Trent",
+				"chest_unopened_img": "/images/locations/monsters/trent.png",
+                "chest_opened_img": "/images/locations/monsters/trentfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|5",
+					"fovohampass",
+					"lesaliapass, ^$checkpoachbattlelevel|2",
+					"mediator, @Woodman/Poach Woodman",
+					"mediator, @Taiju/Poach Taiju"
+                ],
+				"sections": [
+					{
+						"name": "Poach Trent",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "348",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Taiju",
+				"chest_unopened_img": "/images/locations/monsters/taiju.png",
+                "chest_opened_img": "/images/locations/monsters/taijufound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "fovohampass, ^$checkpoachbattlelevel|5",
+					"lesaliapass, ^$checkpoachbattlelevel|5",
+					"murondpass, lionelpass, ^$checkbattlelevel|10, $sidequestson",
+					"mediator, @Woodman/Poach Woodman",
+					"mediator, @Trent/Poach Trent"
+                ],
+				"sections": [
+					{
+						"name": "Poach Taiju",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "348",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Bull Demon",
+				"chest_unopened_img": "/images/locations/monsters/bulldemon.png",
+                "chest_opened_img": "/images/locations/monsters/bulldemonfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+				"sections": [
+					{
+						"name": "Poach Bull Demon",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "380",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Minitaurus",
+				"chest_unopened_img": "/images/locations/monsters/minitaurus.png",
+                "chest_opened_img": "/images/locations/monsters/minitaurusfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "fovohampass, ^$checkpoachbattlelevel|5",
+                    "lesaliapass, ^$checkpoachbattlelevel|5",
+					"lesaliapass, lionelpass, ^$checkpoachbattlelevel|2",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|2",
+					"fovohampass, zeltenniapass",
+					"lesaliapass, limberrypass, zeltenniapass",
+					"lesaliapass, limberrypass, ^$checkpoachbattlelevel|2",
+					"mediator, @Bull Demon/Poach Bull Demon",
+					"mediator, @Sacred/Poach Sacred"
+                ],
+				"sections": [
+					{
+						"name": "Poach Minitaurus",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "380",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Sacred",
+				"chest_unopened_img": "/images/locations/monsters/sacred.png",
+                "chest_opened_img": "/images/locations/monsters/sacredfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "fovohampass, ^$checkpoachbattlelevel|5",
+					"lesaliapass, ^$checkpoachbattlelevel|5",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|5",
+					"mediator, @Bull Demon/Poach Bull Demon",
+					"mediator, @Minitaurus/Poach Minitaurus"
+                ],
+				"sections": [
+					{
+						"name": "Poach Sacred",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "380",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Morbol",
+				"chest_unopened_img": "/images/locations/monsters/morbol.png",
+                "chest_opened_img": "/images/locations/monsters/morbolfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|5",
+					"fovohampass, ^$checkpoachbattlelevel|2",
+					"lesaliapass, ^$checkpoachbattlelevel|2",
+					"lesaliapass, lionelpass",
+					"murondpass, lionelpass",
+					"fovohampass, zeltenniapass",
+					"lesaliapass, limberrypass",
+					"mediator, @Ochu/Poach Ochu",
+					"mediator, @Great Morbol/Poach Great Morbol"
+                ],
+				"sections": [
+					{
+						"name": "Poach Morbol",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "412",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Ochu",
+				"chest_unopened_img": "/images/locations/monsters/ochu.png",
+                "chest_opened_img": "/images/locations/monsters/ochufound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|5",
+					"fovohampass, zeltenniapass",
+					"lesaliapass, limberrypass, zeltenniapass",
+					"mediator, @Morbol/Poach Morbol",
+					"mediator, @Great Morbol/Poach Great Morbol"
+                ],
+				"sections": [
+					{
+						"name": "Poach Ochu",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "412",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Great Morbol",
+				"chest_unopened_img": "/images/locations/monsters/greatmorbol.png",
+                "chest_opened_img": "/images/locations/monsters/greatmorbolfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "fovohampass, zeltenniapass, ^$checkpoachbattlelevel|8",
+                    "lesaliapass, limberrypass, zeltenniapass, ^$checkpoachbattlelevel|8",
+					"mediator, @Morbol/Poach Morbol",
+					"mediator, @Ochu/Poach Ochu"
+                ],
+				"sections": [
+					{
+						"name": "Poach Great Morbol",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "412",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Behemoth",
+				"chest_unopened_img": "/images/locations/monsters/behemoth.png",
+                "chest_opened_img": "/images/locations/monsters/behemothfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "lesaliapass, ^$checkpoachbattlelevel|2",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|5",
+					"fovohampass, zeltenniapass",
+					"lesaliapass, limberrypass",
+					"mediator, @King Behemoth/Poach King Behemoth",
+					"mediator, @Dark Behemoth/Poach Dark Behemoth"
+                ],
+				"sections": [
+					{
+						"name": "Poach Behemoth",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "444",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "King Behemoth",
+				"chest_unopened_img": "/images/locations/monsters/kingbehemoth.png",
+                "chest_opened_img": "/images/locations/monsters/kingbehemothfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "lesaliapass, ^$checkpoachbattlelevel|9",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|9",
+					"fovohampass, limberrypass, zeltenniapass",
+					"lesaliapass, limberrypass, zeltenniapass",
+					"lesaliapass, limberrypass, ^$checkpoachbattlelevel|5",
+					"mediator, @Behemoth/Poach Behemoth",
+					"mediator, @Dark Behemoth/Poach Dark Behemoth"
+                ],
+				"sections": [
+					{
+						"name": "Poach King Behemoth",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "444",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Dark Behemoth",
+				"chest_unopened_img": "/images/locations/monsters/darkbehemoth.png",
+                "chest_opened_img": "/images/locations/monsters/darkbehemothfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "lesaliapass, lionelpass, ^$checkpoachbattlelevel|9",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|9",
+					"lesaliapass, limberrypass, ^$checkpoachbattlelevel|8",
+					"fovohampass, zeltenniapass, limberrypass, ^$checkpoachbattlelevel|8",
+					"mediator, @Behemoth/Poach Behemoth",
+					"mediator, @Dark Behemoth/Poach King Behemoth"
+                ],
+				"sections": [
+					{
+						"name": "Poach Dark Behemoth",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "444",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Dragon",
+				"chest_unopened_img": "/images/locations/monsters/dragon.png",
+                "chest_opened_img": "/images/locations/monsters/dragonfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+				"sections": [
+					{
+						"name": "Poach Dragon",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "478",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Blue Dragon",
+				"chest_unopened_img": "/images/locations/monsters/bluedragon.png",
+                "chest_opened_img": "/images/locations/monsters/bluedragonfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|9",
+					"fovohampass",
+					"lesaliapass, lionelpass, ^$checkpoachbattlelevel|5",
+					"murondpass, lionelpass, ^$checkpoachbattlelevel|5",
+					"lesaliapass, zeltenniapass, ^$checkbattlelevel|8",
+					"lesaliapass, limberrypass, ^$checkpoachbattlelevel|8",
+					"lesaliapass, limberrypass, zeltenniapass, ^$checkpoachbattlelevel|5",
+					"mediator, @Dragon/Poach Dragon",
+					"mediator, @Red Dragon/Poach Red Dragon"
+                ],
+				"sections": [
+					{
+						"name": "Poach Blue Dragon",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "478",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Red Dragon",
+				"chest_unopened_img": "/images/locations/monsters/reddragon.png",
+                "chest_opened_img": "/images/locations/monsters/reddragonfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "^$checkpoachbattlelevel|9",
+					"lesaliapass, ^$checkpoachbattlelevel|5",
+					"fovohampass, zeltenniapass",
+					"lesaliapass, limberrypass, zeltenniapass",
+					"mediator, @Dragon/Poach Dragon",
+					"mediator, @Blue Dragon/Poach Blue Dragon"
+                ],
+				"sections": [
+					{
+						"name": "Poach Red Dragon",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "478",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Hyudra",
+				"chest_unopened_img": "/images/locations/monsters/hyudra.png",
+                "chest_opened_img": "/images/locations/monsters/hyudrafound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "lesaliapass, lionelpass, ^$checkpoachbattlelevel|9",
+                    "murondpass, lionelpass, ^$checkpoachbattlelevel|9",
+					"fovohampass, zeltenniapass, ^$checkbattlelevel|12, $sidequestson",
+					"lesaliapass, limberrypass, zeltenniapass, ^$checkbattlelevel|12, $sidequestson",
+					"mediator, @Hydra/Poach Hydra",
+					"mediator, @Tiamat/Poach Tiamat"
+                ],
+				"sections": [
+					{
+						"name": "Poach Hyudra",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "508",
+                        "y": "44",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Hydra",
+				"chest_unopened_img": "/images/locations/monsters/hydra.png",
+                "chest_opened_img": "/images/locations/monsters/hydrafound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "lesaliapass, lionelpass, ^$checkpoachbattlelevel|9",
+                    "murondpass, lionelpass, ^$checkpoachbattlelevel|9",
+					"mediator, @Hyudra/Poach Hyudra",
+					"mediator, @Tiamat/Poach Tiamat"
+                ],
+				"sections": [
+					{
+						"name": "Poach Hydra",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "508",
+                        "y": "92",
+                        "size": 8
+                    }
+                ]
+			},
+			{
+				"name": "Tiamat",
+				"chest_unopened_img": "/images/locations/monsters/tiamat.png",
+                "chest_opened_img": "/images/locations/monsters/tiamatfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "lesaliapass, lionelpass, ^$checkpoachbattlelevel|9",
+                    "murondpass, lionelpass, ^$checkpoachbattlelevel|9",
+					"mediator, @Hyudra/Poach Hyudra",
+					"mediator, @Hydra/Poach Hydra"
+                ],
+				"sections": [
+					{
+						"name": "Poach Tiamat",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+                    {
+                        "map": "Poaches",
+                        "x": "508",
+                        "y": "140",
+                        "size": 8
+                    }
+                ]
+			}
+		],
+        "sections": [
+            {
+                "name": "Poach Yellow Chocobo",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Black Chocobo",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Red Chocobo",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Goblin",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Black Goblin",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Gobbledeguck",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Red Panther",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Cuar",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Vampire",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Bomb",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Grenade",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Explosive",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Skeleton",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Bone Snatch",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Living Bone",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Ghoul",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Gust",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Revnant",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Floatiball",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Ahriman",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Plague",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Pisco Demon",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Squidlarkin",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Mindflare",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Juravis",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Steel Hawk",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Cocatoris",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Bull Demon",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Minitaurus",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Sacred",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Morbol",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Ochu",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Great Morbul",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Woodman",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Trent",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Taiju",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Dragon",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Blue Dragon",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Red Dragon",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Behemoth",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach King Behemoth",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Dark Behemoth",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Hyudra",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Hydra",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Tiamat",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Uribo",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Porky",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Poach Wildbow",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Unused",
+                "x": "32",
+                "y": "32",
+                "size": 6
+            }
+        ]
+    }
+]

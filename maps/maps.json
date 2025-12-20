@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Jobs",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/jobmap.png"
+    },
+	{
+		"name": "Job Tree",
+        "location_size": 6,
+        "location_border_thickness": 1,
+		"img": "images/maps/jobtree.png"
+	},
+    {
+        "name": "Poaches",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/monstermap.png"
+    },
+    {
+        "name": "World Map",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/worldmaplarge.png"
+    }
+]
