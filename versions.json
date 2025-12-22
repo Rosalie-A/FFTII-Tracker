@@ -1,0 +1,10 @@
+{
+	"versions": [
+		{
+			"package_version": "0.1.0",
+			"download_url": "https://github.com/Rosalie-A/FFTII-Tracker/releases/download/FFTIITracker-v0.1.0/FFTII-Tracker-_0_1_0.zip",
+			"sha256": "sha256:937a0e3d2c543729190fbb5e8d171fad6ac44930bb2effb7f0c54bf240ff0051",
+			"changelog": ["Initial release."]
+		},
+	]
+}
