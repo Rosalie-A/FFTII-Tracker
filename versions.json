@@ -11,6 +11,12 @@
 			"download_url": "https://github.com/Rosalie-A/FFTII-Tracker/releases/download/FFTIITracker-v0.1.1/FFTII-Tracker-0_1_1.zip",
 			"sha256": "94618d1ef726af37a7145056d25212c13be048a673866666cf0d759a6ae8ce5d",
 			"changelog": ["Testing autoupdate."]
+		},
+		{
+			"package_version": "0.1.2",
+			"download_url": "https://github.com/Rosalie-A/FFTII-Tracker/releases/download/FFTIITracker-v0.1.2/FFTII-Tracker-0_1_2.zip",
+			"sha256": "38a691e73d316f83c88d197595930fac834b39ebade329594fec1ed0a30e9e1e",
+			"changelog": ["Testing autoupdate 2."]
 		}
 	]
 }
