@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.2.0",
+			"download_url": "https://github.com/Rosalie-A/FFTII-Tracker/releases/download/FFTIITracker-v0.2.0/FFTII-Tracker-0_2_0.zip",
+			"sha256": "76edec4d9f6567fccd262f20d4ae8ba76ee7a18743b80cbd14a86004dfc545aa",
+			"changelog": ["Updated for APWorld v0.2.0.", "Autoupdates enabled."]
+		},
+		{
 			"package_version": "0.1.2",
 			"download_url": "https://github.com/Rosalie-A/FFTII-Tracker/releases/download/FFTIITracker-v0.1.2/FFTII-Tracker-0_1_2.zip",
 			"sha256": "38a691e73d316f83c88d197595930fac834b39ebade329594fec1ed0a30e9e1e",
