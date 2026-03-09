@@ -18,7 +18,7 @@
                 ],
 				"sections": [
 					{
-						"name": "Bervenia Volvano Rare Battle",
+						"name": "Bervenia Volcano Rare Battle",
                         "access_rules": ["^$checkrarebattlelevel"],
                         "visibility_rules": ["$rarebattleson"],
 						"item_count": 1
@@ -226,6 +226,14 @@
                         "name": "Goland Underground Passage Sidequest Battle",
 						"chest_unopened_img": "/images/locations/sidequestcrystal.png",
 						"chest_opened_img": "/images/locations/sidequestcrystalfound.png",
+                        "access_rules": ["^$checkbattlelevel|8"],
+                        "visibility_rules": ["$sidequestson"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Goland Underground Passage Zodiac Stone",
+						"chest_unopened_img": "/images/locations/stones/aquarius.png",
+						"chest_opened_img": "/images/locations/stones/aquariusfound.png",
                         "access_rules": ["^$checkbattlelevel|8"],
                         "visibility_rules": ["$sidequestson"],
                         "item_count": 1

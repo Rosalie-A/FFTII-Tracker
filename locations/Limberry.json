@@ -41,24 +41,40 @@
                 "chest_opened_img": "/images/locations/crystalfound.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$checkbattlelevel|12"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Bethla Garrison North Wall Story Battle",
-                        "access_rules": [],
+                        "access_rules": [
+							"^$checkbattlelevel|12"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bethla Garrison South Wall Story Battle",
-                        "access_rules": [],
+                        "access_rules": [
+							"^$checkbattlelevel|12"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bethla Garrison Sluice Story Battle",
-                        "access_rules": [],
+                        "access_rules": [
+							"^$checkbattlelevel|12"
+						],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bethla Garrison Sluice Zodiac Stone",
+						"chest_unopened_img": "/images/locations/stones/libra.png",
+						"chest_opened_img": "/images/locations/stones/librafound.png",
+                        "access_rules": [
+							"^$checkbattlelevel|12"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -66,7 +82,9 @@
                         "name": "Bethla Garrison Shop Unlock",
 						"chest_unopened_img": "/images/locations/chest.png",
 						"chest_opened_img": "/images/locations/chestopened.png",
-                        "access_rules": [],
+                        "access_rules": [
+							"^$checkbattlelevel|12"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -74,7 +92,9 @@
                         "name": "Recruit Orlandu",
 						"chest_unopened_img": "/images/locations/orlanduformation.png",
 						"chest_opened_img": "/images/locations/orlanduformationfound.png",
-                        "access_rules": [],
+                        "access_rules": [
+							"^$checkbattlelevel|12"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -127,24 +147,50 @@
                 "chest_opened_img": "/images/locations/crystalfound.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$checkbattlelevel|13"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Limberry Castle Gates Story Battle",
-                        "access_rules": [],
+                        "access_rules": [
+							"^$checkbattlelevel|13"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Inside Limberry Castle Story Battle",
-                        "access_rules": [],
+                        "name": "Inside of Limberry Castle Story Battle",
+                        "access_rules": [
+							"^$checkbattlelevel|13"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Limberry Castle Cemetary Story Battle",
-                        "access_rules": [],
+                        "name": "Limberry Castle Cemetery Story Battle",
+                        "access_rules": [
+							"^$checkbattlelevel|13"
+						],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Limberry Castle Cemetery Zodiac Stone 1",
+						"chest_unopened_img": "/images/locations/stones/gemini.png",
+						"chest_opened_img": "/images/locations/stones/geminifound.png",
+                        "access_rules": [
+							"^$checkbattlelevel|13"
+						],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Limberry Castle Cemetery Zodiac Stone 2",
+						"chest_unopened_img": "/images/locations/stones/sagittarius.png",
+						"chest_opened_img": "/images/locations/stones/sagittariusfound.png",
+                        "access_rules": [
+							"^$checkbattlelevel|13"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -152,7 +198,9 @@
                         "name": "Limberry Castle Shop Unlock",
 						"chest_unopened_img": "/images/locations/chest.png",
 						"chest_opened_img": "/images/locations/chestopened.png",
-                        "access_rules": [],
+                        "access_rules": [
+							"^$checkbattlelevel|13"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -160,7 +208,9 @@
                         "name": "Recruit Meliadoul",
 						"chest_unopened_img": "/images/locations/meliadoulformation.png",
 						"chest_opened_img": "/images/locations/meliadoulformationfound.png",
-                        "access_rules": [],
+                        "access_rules": [
+							"^$checkbattlelevel|13"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -180,12 +230,14 @@
                 "chest_opened_img": "/images/locations/crystalfound.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$checkbattlelevel|13"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Poeskas Lake Story Battle",
-                        "access_rules": [],
+                        "access_rules": [
+							"^$checkbattlelevel|13"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     },

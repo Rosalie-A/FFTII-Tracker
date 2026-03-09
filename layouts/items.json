@@ -185,7 +185,10 @@
                         "item_width": 32,
                         "rows": [
 							[
-								"easydifficulty", "altimaonly", "sidequests", "rarebattles", "jobunlocks", "poaches", "requiredstones"
+								"easydifficulty", "altimaonly", "sidequests", "rarebattles"
+							],
+							[
+								"jobunlocks", "poaches", "enemyrandodisabled", "requiredstones"
 							]
                         ]
                     }

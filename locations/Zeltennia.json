@@ -15,12 +15,14 @@
                 "chest_opened_img": "/images/locations/crystalfound.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$checkbattlelevel|12"
+                    
                 ],
                 "sections": [
                     {
 						"name": "Bervenia Free City Story Battle",
-						"access_rules": [],
+						"access_rules": [
+							"^$checkbattlelevel|12"
+						],
 						"visibility_rules": [],
 						"item_count": 1
 					}
@@ -39,12 +41,14 @@
                 "chest_opened_img": "/images/locations/crystalfound.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$checkbattlelevel|12"
+                    
                 ],
                 "sections": [
                     {
 						"name": "Zeltennia Castle Story Battle",
-						"access_rules": [],
+						"access_rules": [
+							"^$checkbattlelevel|12"
+						],
 						"visibility_rules": [],
 						"item_count": 1
 					}
@@ -97,7 +101,7 @@
                 "chest_opened_img": "/images/locations/crystalfound.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$checkbattlelevel|12"
+                    
                 ],
 				"visibility_rules": [
 				    "$sidequestson"
@@ -107,7 +111,19 @@
                         "name": "Nelveska Temple Sidequest Battle",
 						"chest_unopened_img": "/images/locations/sidequestcrystal.png",
 						"chest_opened_img": "/images/locations/sidequestcrystalfound.png",
-                        "access_rules": [],
+                        "access_rules": [
+							"^$checkbattlelevel|12"
+						],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nelveska Temple Zodiac Stone",
+						"chest_unopened_img": "/images/locations/stones/cancer.png",
+						"chest_opened_img": "/images/locations/stones/cancerfound.png",
+                        "access_rules": [
+							"^$checkbattlelevel|12"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -115,7 +131,9 @@
                         "name": "Recruit Reis (Human)",
 						"chest_unopened_img": "/images/locations/reishumanformation.png",
 						"chest_opened_img": "/images/locations/reishumanformationfound.png",
-                        "access_rules": [],
+                        "access_rules": [
+							"^$checkbattlelevel|12"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -135,7 +153,7 @@
                 "chest_opened_img": "/images/locations/crystalfound.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$checkbattlelevel|14"
+                    
                 ],
 				"visibility_rules": [
 				    "$sidequestson"
@@ -145,7 +163,9 @@
                         "name": "Zarghidas Trade City Sidequest Battle",
 						"chest_unopened_img": "/images/locations/sidequestcrystal.png",
 						"chest_opened_img": "/images/locations/sidequestcrystalfound.png",
-                        "access_rules": [],
+                        "access_rules": [
+							"^$checkbattlelevel|14"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -153,7 +173,9 @@
                         "name": "Recruit Cloud",
 						"chest_unopened_img": "/images/locations/cloudformation.png",
 						"chest_opened_img": "/images/locations/cloudformationfound.png",
-                        "access_rules": [],
+                        "access_rules": [
+							"^$checkbattlelevel|14"
+						],
                         "visibility_rules": [],
                         "item_count": 1
                     }

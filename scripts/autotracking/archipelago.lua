@@ -7,6 +7,8 @@ CUR_INDEX = -1
 
 ALL_LOCATIONS = {}
 SLOT_DATA = {}
+POACH_DB = {}
+EXCLUDED_MONSTER_NAMES = {}
 
 if Highlight then
     HIGHTLIGHT_LEVEL= {
@@ -268,6 +270,19 @@ function autoFill()
 				    item = Tracker:FindObjectForCode("poaches")
 					item.Active = true
 		        end
+			end
+			if settings_name == "enemy_randomizer" then
+				item = Tracker:FindObjectForCode("enemyrandodisabled")
+			    item.CurrentStage = settings_value
+			end
+			if settings_name == "poach_database" then
+				POACH_DB = settings_value
+			end
+			if settings_name == "excluded_monster_locations" then
+				EXCLUDED_MONSTER_NAMES = {}
+				for index, name in ipairs(settings_value) do
+					EXCLUDED_MONSTER_NAMES[name] = name
+				end
 			end
         end
     end

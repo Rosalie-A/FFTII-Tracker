@@ -696,5 +696,25 @@
 				"codes": "extremedifficulty"
 			}
 		]
+	},
+	{
+		"name": "Enemy Randomizer",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/settings/enemyrandoalgus.png",
+				"codes": "enemyrandodisabled"
+			},
+			{
+				"img": "images/settings/enemyrandogafgarion.png",
+				"codes": "enemyrandoshuffled"
+			},
+			{
+				"img": "images/settings/enemyrandoovelia.png",
+				"codes": "enemyrandorandomized"
+			}
+		]
 	}
 ]

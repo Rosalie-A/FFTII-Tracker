@@ -38,6 +38,14 @@ function poachesoff()
     return Has("poaches") == AccessibilityLevel.None
 end
 
+function enemyrandoon()
+	return Has("enemyrandorandomized") == AccessibilityLevel.Normal
+end
+
+function enemyrandooff()
+	return Has("enemyrandorandomized") == AccessibilityLevel.None
+end
+
 function canreachmonster(location)
     return CanReach(location) == AccessibilityLevel.Normal
 end
@@ -134,10 +142,10 @@ extreme_job_battle_levels = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 
 poach_battle_levels = {0, nil, 2, nil, nil, 5, nil, nil, 8, 8}
 
-easy_poach_job_battle_levels = {0, nil, 2, nil, nil, 5, nil, nil, 8, 8}
-normal_poach_job_battle_levels = {0, nil, 2, nil, nil, 4, nil, nil, 5, 5}
-difficult_poach_job_battle_levels = {0, nil, 2, nil, nil, 3, nil, nil, 4, 4}
-extreme_poach_job_battle_levels = {0, nil, 1, nil, nil, 1, nil, nil, 1, 1}
+easy_poach_job_battle_levels = {0, nil, 2, nil, nil, 5, nil, nil, 8, 8, 10, nil, 12, nil, 14}
+normal_poach_job_battle_levels = {0, nil, 2, nil, nil, 4, nil, nil, 5, 5, 7, nil, 8, nil, 10}
+difficult_poach_job_battle_levels = {0, nil, 2, nil, nil, 3, nil, nil, 4, 4, 5, nil, 6, nil, 7}
+extreme_poach_job_battle_levels = {0, nil, 1, nil, nil, 1, nil, nil, 1, 1, 1, nil, 1, nil, 1}
 
 function getdifficulty()
 	return Tracker:FindObjectForCode("easydifficulty").CurrentStage
@@ -185,7 +193,11 @@ function checkpoachbattlelevel(level)
 	if getdifficulty() == 3 then
 		poach_job_battle_levels = extreme_poach_job_battle_levels
 	end
-	shop_accessibility = checkpoachshoplevel(poach_shop_battle_levels[level + 1])
+	if tonumber(level) < 10 then
+		shop_accessibility = checkpoachshoplevel(poach_shop_battle_levels[level + 1])
+	else
+		shop_accessibility = AccessibilityLevel.SequenceBreak
+	end
 	job_accessibility = checkjobcount(poach_job_battle_levels[level + 1])
 	if shop_accessibility == AccessibilityLevel.Normal then
 	    return job_accessibility
@@ -243,4 +255,102 @@ end
 
 function checkstonecount()
     return stonecount() >= Tracker:ProviderCountForCode('requiredstones')
+end
+
+region_to_item_mapping = {
+	Gariland="@Gariland",
+	Igros="@Igros",
+	Mandalia="@Mandalia",
+	Sweegy="@Sweegy",
+	Dorter="@Dorter",
+	Lenalia="@Lenalia",
+	Zeakden="@Zeakden",
+	
+	Grog="@Grog",
+	Yardow="@Yardow",
+	Yuguo="@Yuguo",
+	Riovanes="@Riovanes",
+	Fovoham="@Fovoham Plains",
+	
+	Araguay="@Araguay",
+	Zirekile="@Zirekile",
+	Zeklaus="@Zeklaus",
+	Lesalia="@Lesalia City",
+	Goland="@Goland",
+	
+	Zaland="@Zaland",
+	Lionel="@Lionel Castle",
+	Zigolis="@Zigolis",
+	Golgorand="@Golgorand",
+	Warjilis="@Warjilis",
+	
+	Finath="@Finath",
+	Zeltennia="@Zeltennia City",
+	Nelveska="@Nelveska",
+	Zarghidas="@Zarghidas",
+	Germinas="@Germinas",
+	Doguola="@Doguola",
+	
+	Bethla="@Bethla",
+	Bed="@Bed",
+	Dolbodar="@Dolbodar",
+	Limberry="@Limberry Castle",
+	Poeskas="@Poeskas",
+	
+	Murond="@Murond Temple",
+	Orbonne="@Orbonne",
+	Goug="@Goug"
+}
+
+local ThievesFort = "Thieves' Fort"
+local BerveniaVolcano = "Bervenia Volcano"
+local BariausHill = "Bariaus Hill"
+local BariausValley = "Bariaus Valley"
+local BerveniaCity = "Bervenia City"
+local DeepDungeon = "Deep Dungeon"
+local MurondDeathCity = "Murond Death City"
+
+region_to_item_mapping[ThievesFort] = "@Thieves' Fort"
+region_to_item_mapping[BerveniaVolcano] = "@Bervenia Volcano"
+region_to_item_mapping[BariausHill] = "@Bariaus Hill"
+region_to_item_mapping[BariausValley] = "@Bariaus Valley"
+region_to_item_mapping[BerveniaCity] = "@Bervenia City"
+region_to_item_mapping[DeepDungeon] = "@Deep Dungeon"
+region_to_item_mapping[MurondDeathCity] = "@Murond Death City"
+
+function check_poach_logic(monster_name)
+	local total_region_access = AccessibilityLevel.None
+	for entry_index, entry in pairs(POACH_DB[monster_name]) do
+		for field, value in pairs(entry) do
+			local region_access = nil
+			if field == "Regions" then
+				for index, region_name in pairs(value) do
+					if region_to_item_mapping[region_name] ~= nil then
+						local new_region_access = Tracker:FindObjectForCode(region_to_item_mapping[region_name]).AccessibilityLevel
+						if region_access == nil then
+							region_access = new_region_access
+						else
+							region_access = math.min(region_access, new_region_access)
+						end
+					end
+				end
+				local new_region_access = AccessibilityLevel.None
+				if entry["Story"] == true then
+					new_region_access = checkbattlelevel(entry["BattleLevel"])
+				else
+					new_region_access = checkpoachbattlelevel(entry["BattleLevel"])
+				end
+				region_access = math.min(region_access, new_region_access)
+				total_region_access = math.max(total_region_access, region_access)
+			end
+		end
+	end
+	return total_region_access
+end
+
+function check_poach_visibility(monster_name)
+	if EXCLUDED_MONSTER_NAMES[monster_name] == nil then
+		return true
+	end
+	return false
 end
