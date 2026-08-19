@@ -116,7 +116,7 @@ function jobcount()
 end
 
 function checkshoplevel(count)
-    return Has("progressiveshoplevel", 0, count)
+    return Has("progressiveshoplevel", 0, tonumber(count))
 end
 
 function checkpoachshoplevel(count)
@@ -354,3 +354,230 @@ function check_poach_visibility(monster_name)
 	end
 	return false
 end
+
+function check_four_jump_jobs()
+	if Has("monk") == AccessibilityLevel.Normal then
+		return true
+	end
+	if Has("thief") == AccessibilityLevel.Normal then
+		return true
+	end
+	if Has("lancer") == AccessibilityLevel.Normal then
+		return true
+	end
+	if Has("ninja") == AccessibilityLevel.Normal then
+		return true
+	end
+	return false
+end
+
+function check_spike_shoes()
+	return checkshoplevel(4) == AccessibilityLevel.Normal
+end
+
+function check_mfi_not_default()
+	return Has("mfilogicchemistinnate") == AccessibilityLevel.Normal or Has("mfilogicblueteaminnate") == AccessibilityLevel.Normal
+end
+
+function check_mfi_not_default()
+	return Has("mfilogicblueteaminnate") == AccessibilityLevel.Normal
+end
+
+function check_archer()
+	return Has("archer") == AccessibilityLevel.Normal
+end
+
+function check_movement_ability_jobs()
+	if Has("timemage") == AccessibilityLevel.Normal then
+		return true
+	end
+	if Has("lancer") == AccessibilityLevel.Normal then
+		return true
+	end
+	if Has("bard") == AccessibilityLevel.Normal then
+		return true
+	end
+	if Has("dancer") == AccessibilityLevel.Normal then
+		return true
+	end
+	return false
+end
+
+function check_large_monsters()
+	if check_poach_logic("Morbol") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Ochu") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Great Morbol") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Behemoth") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("King Behemoth") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Dark Behemoth") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Dragon") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Blue Dragon") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Red Dragon") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Hyudra") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Hydra") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Tiamat") == AccessibilityLevel.Normal then
+		return true
+	end
+	return false
+end
+
+function check_flying_ability_monsters()
+	if check_poach_logic("Yellow Chocobo") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Black Chocobo") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Red Chocobo") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Red Panther") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Cuar") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Vampire") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Ghoul") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Gust") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Revnant") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Flotiball") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Ahriman") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Plague") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Steel Hawk") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Juravis") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Cocatoris") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Hyudra") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Hydra") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Tiamat") == AccessibilityLevel.Normal then
+		return true
+	end
+	return false
+end
+
+function check_lava_monsters()
+	if check_poach_logic("Ghoul") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Gust") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Revnant") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Bomb") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Grenade") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Explosive") == AccessibilityLevel.Normal then
+		return true
+	end
+	return false
+end
+
+function check_chocobo()
+	if check_poach_logic("Yellow Chocobo") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Black Chocobo") == AccessibilityLevel.Normal then
+		return true
+	end
+	if check_poach_logic("Red Chocobo") == AccessibilityLevel.Normal then
+		return true
+	end
+	return false
+end
+
+function filter_mfi_not_default(rule)
+	return rule() and check_mfi_not_default()
+end
+
+function filter_mfi_innate(rule)
+	return rule() and check_mfi_innate()
+end
+
+function filter_mfi_not_innate(rule)
+	return rule() and ~check_mfi_innate()
+end
+
+function filter_monster_rule(result)
+	return result and Has("mediator") == AccessibilityLevel.Normal
+end
+
+function four_jump_rule()
+	local spike_shoes = check_spike_shoes()
+	local four_jump_jobs = check_four_jump_jobs()
+	local archer = filter_mfi_not_default(check_archer)
+	local movement_ability = filter_mfi_not_default(check_movement_ability_jobs)
+	local flying_monster = filter_monster_rule(check_flying_ability_monsters)
+	movement_ability = movement_ability or flying_monster
+	return spike_shoes or four_jump_jobs or archer or movement_ability
+end
+
+function four_jump_plus_one_rule()
+	return check_four_jump_jobs() and (check_spike_shoes() or filter_mfi_innate(check_archer))
+end
+
+function three_jump_plus_two_rule()
+	return check_spike_shoes() and filter_mfi_not_default(check_archer)
+end
+
+function five_jump_rule()
+	local movement_ability = filter_mfi_not_default(check_movement_ability_jobs)
+	local flying_monster = filter_monster_rule(check_flying_ability_monsters)
+	movement_ability = movement_ability or flying_monster
+	return three_jump_plus_two_rule() or four_jump_plus_one_rule() or movement_ability
+end
+
+function lava_movement_rule()
+	return Has("geomancer") == AccessibilityLevel.Normal or Has("timemage") == AccessibilityLevel.Normal
+end
+

@@ -1,0 +1,6520 @@
+[
+    {
+        "name": "Move-Find Item",
+        "chest_unopened_img": "/images/items/mfi.png",
+        "chest_opened_img": "/images/items/mfifound.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "mfilogicdefault, chemist", 
+			"mfilogicchemistinnate, chemist",
+			"mfilogicblueteaminnate"
+        ],
+		"visibility_rules": [
+		    "mfienabled"
+		],
+        "children": [
+			{
+				"name": "Lesalia MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lesalia MFI/Lesalia MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lesalia Imperial Capital",
+						"x": "14",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Lesalia MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lesalia MFI/Lesalia MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lesalia Imperial Capital",
+						"x": "238",
+						"y": "294"
+					}
+				]
+			},
+			{
+				"name": "Lesalia MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lesalia MFI/Lesalia MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lesalia Imperial Capital",
+						"x": "266",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Lesalia MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lesalia MFI/Lesalia MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lesalia Imperial Capital",
+						"x": "266",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Murond Temple Hall MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Murond Temple MFI/Murond Temple Hall MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Murond Temple Hall",
+						"x": "126",
+						"y": "350"
+					}
+				]
+			},
+			{
+				"name": "Murond Temple Hall MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Murond Temple MFI/Murond Temple Hall MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Murond Temple Hall",
+						"x": "126",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Murond Temple Hall MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Murond Temple MFI/Murond Temple Hall MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Murond Temple Hall",
+						"x": "126",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Murond Temple Hall MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Murond Temple MFI/Murond Temple Hall MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Murond Temple Hall",
+						"x": "126",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Riovanes Castle Rooftop MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Riovanes Castle MFI/Riovanes Castle Rooftop MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Riovanes Castle Rooftop",
+						"x": "14",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Riovanes Castle Rooftop MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Riovanes Castle MFI/Riovanes Castle Rooftop MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Riovanes Castle Rooftop",
+						"x": "210",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Riovanes Castle Rooftop MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Riovanes Castle MFI/Riovanes Castle Rooftop MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Riovanes Castle Rooftop",
+						"x": "210",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Riovanes Castle Rooftop MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Riovanes Castle MFI/Riovanes Castle Rooftop MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Riovanes Castle Rooftop",
+						"x": "210",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Riovanes Castle Gate MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Riovanes Castle MFI/Riovanes Castle Gate MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Riovanes Castle Gate",
+						"x": "14",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Riovanes Castle Gate MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Riovanes Castle MFI/Riovanes Castle Gate MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Riovanes Castle Gate",
+						"x": "98",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Riovanes Castle Gate MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Riovanes Castle MFI/Riovanes Castle Gate MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Riovanes Castle Gate",
+						"x": "210",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Riovanes Castle Gate MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Riovanes Castle MFI/Riovanes Castle Gate MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Riovanes Castle Gate",
+						"x": "322",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Riovanes Castle Inside MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Riovanes Castle MFI/Riovanes Castle Inside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Riovanes Castle Inside",
+						"x": "14",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Riovanes Castle Inside MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Riovanes Castle MFI/Riovanes Castle Inside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Riovanes Castle Inside",
+						"x": "70",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Riovanes Castle Inside MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Riovanes Castle MFI/Riovanes Castle Inside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Riovanes Castle Inside",
+						"x": "154",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Riovanes Castle Inside MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Riovanes Castle MFI/Riovanes Castle Inside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Riovanes Castle Inside",
+						"x": "210",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Igros Castle MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Igros Castle MFI/Igros Castle MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Igros Castle",
+						"x": "42",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "Igros Castle MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Igros Castle MFI/Igros Castle MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Igros Castle",
+						"x": "126",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Igros Castle MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Igros Castle MFI/Igros Castle MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Igros Castle",
+						"x": "182",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Igros Castle MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Igros Castle MFI/Igros Castle MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Igros Castle",
+						"x": "210",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "Lionel Castle Gate MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lionel Castle MFI/Lionel Castle Gate MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lionel Castle Gate",
+						"x": "42",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Lionel Castle Gate MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lionel Castle MFI/Lionel Castle Gate MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lionel Castle Gate",
+						"x": "70",
+						"y": "378"
+					}
+				]
+			},
+			{
+				"name": "Lionel Castle Gate MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lionel Castle MFI/Lionel Castle Gate MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lionel Castle Gate",
+						"x": "70",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Lionel Castle Gate MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lionel Castle MFI/Lionel Castle Gate MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lionel Castle Gate",
+						"x": "98",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Lionel Castle Inside MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lionel Castle MFI/Lionel Castle Inside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lionel Castle Inside",
+						"x": "98",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Lionel Castle Inside MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lionel Castle MFI/Lionel Castle Inside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lionel Castle Inside",
+						"x": "98",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Lionel Castle Inside MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lionel Castle MFI/Lionel Castle Inside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lionel Castle Inside",
+						"x": "126",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Lionel Castle Inside MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lionel Castle MFI/Lionel Castle Inside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lionel Castle Inside",
+						"x": "126",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Limberry Castle Inside MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Limberry Castle MFI/Limberry Castle Inside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Limberry Castle Inside",
+						"x": "14",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Limberry Castle Inside MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Limberry Castle MFI/Limberry Castle Inside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Limberry Castle Inside",
+						"x": "98",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Limberry Castle Inside MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Limberry Castle MFI/Limberry Castle Inside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Limberry Castle Inside",
+						"x": "182",
+						"y": "294"
+					}
+				]
+			},
+			{
+				"name": "Limberry Castle Inside MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Limberry Castle MFI/Limberry Castle Inside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Limberry Castle Inside",
+						"x": "266",
+						"y": "350"
+					}
+				]
+			},
+			{
+				"name": "Limberry Underground Cemetery MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Limberry Castle MFI/Limberry Underground Cemetery MFI, $four_jump_rule"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Limberry Underground Cemetery",
+						"x": "42",
+						"y": "350"
+					}
+				]
+			},
+			{
+				"name": "Limberry Underground Cemetery MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Limberry Castle MFI/Limberry Underground Cemetery MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Limberry Underground Cemetery",
+						"x": "126",
+						"y": "406"
+					}
+				]
+			},
+			{
+				"name": "Limberry Underground Cemetery MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Limberry Castle MFI/Limberry Underground Cemetery MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Limberry Underground Cemetery",
+						"x": "126",
+						"y": "350"
+					}
+				]
+			},
+			{
+				"name": "Limberry Underground Cemetery MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Limberry Castle MFI/Limberry Underground Cemetery MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Limberry Underground Cemetery",
+						"x": "154",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Limberry Castle Gate MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Limberry Castle MFI/Limberry Castle Gate MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Limberry Castle Gate",
+						"x": "70",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Limberry Castle Gate MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Limberry Castle MFI/Limberry Castle Gate MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Limberry Castle Gate",
+						"x": "98",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Limberry Castle Gate MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Limberry Castle MFI/Limberry Castle Gate MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Limberry Castle Gate",
+						"x": "210",
+						"y": "266"
+					}
+				]
+			},
+			{
+				"name": "Limberry Castle Gate MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Limberry Castle MFI/Limberry Castle Gate MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Limberry Castle Gate",
+						"x": "210",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Yardow MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Yardow MFI/Yardow MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Yardow",
+						"x": "126",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Yardow MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Yardow MFI/Yardow MFI, $five_jump_rule"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Yardow",
+						"x": "126",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Yardow MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Yardow MFI/Yardow MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Yardow",
+						"x": "266",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Yardow MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Yardow MFI/Yardow MFI, $five_jump_rule"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Yardow",
+						"x": "266",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Goland Coal City MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Coal City MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Coal City",
+						"x": "14",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Goland Coal City MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Coal City MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Coal City",
+						"x": "126",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Goland Coal City MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Coal City MFI, $four_jump_rule"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Coal City",
+						"x": "126",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Goland Coal City MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Coal City MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Coal City",
+						"x": "210",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Goland Colliery First Floor MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Colliery First Floor MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Colliery First Floor",
+						"x": "42",
+						"y": "294"
+					}
+				]
+			},
+			{
+				"name": "Goland Colliery First Floor MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Colliery First Floor MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Colliery First Floor",
+						"x": "70",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Goland Colliery First Floor MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Colliery First Floor MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Colliery First Floor",
+						"x": "126",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Goland Colliery First Floor MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Colliery First Floor MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Colliery First Floor",
+						"x": "266",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Goland Colliery Second Floor MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Colliery Second Floor MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Colliery Second Floor",
+						"x": "70",
+						"y": "322"
+					}
+				]
+			},
+			{
+				"name": "Goland Colliery Second Floor MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Colliery Second Floor MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Colliery Second Floor",
+						"x": "182",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Goland Colliery Second Floor MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Colliery Second Floor MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Colliery Second Floor",
+						"x": "294",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Goland Colliery Second Floor MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Colliery Second Floor MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Colliery Second Floor",
+						"x": "294",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Goland Colliery Third Floor MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Colliery Third Floor MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Colliery Third Floor",
+						"x": "70",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Goland Colliery Third Floor MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Colliery Third Floor MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Colliery Third Floor",
+						"x": "98",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Goland Colliery Third Floor MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Colliery Third Floor MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Colliery Third Floor",
+						"x": "266",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Goland Colliery Third Floor MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Colliery Third Floor MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Colliery Third Floor",
+						"x": "294",
+						"y": "266"
+					}
+				]
+			},
+			{
+				"name": "Dorter Trade City MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Dorter Trade City MFI/Dorter Trade City MFI, $four_jump_rule"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dorter Trade City",
+						"x": "14",
+						"y": "266"
+					}
+				]
+			},
+			{
+				"name": "Dorter Trade City MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Dorter Trade City MFI/Dorter Trade City MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dorter Trade City",
+						"x": "70",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Dorter Trade City MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Dorter Trade City MFI/Dorter Trade City MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dorter Trade City",
+						"x": "238",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "Dorter Trade City MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Dorter Trade City MFI/Dorter Trade City MFI, $five_jump_rule"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dorter Trade City",
+						"x": "238",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Dorter Slums MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Dorter Trade City MFI/Dorter Slums MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dorter Slums",
+						"x": "14",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Dorter Slums MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Dorter Trade City MFI/Dorter Slums MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dorter Slums",
+						"x": "126",
+						"y": "350"
+					}
+				]
+			},
+			{
+				"name": "Dorter Slums MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Dorter Trade City MFI/Dorter Slums MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dorter Slums",
+						"x": "182",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Dorter Slums MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Dorter Trade City MFI/Dorter Slums MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dorter Slums",
+						"x": "210",
+						"y": "406"
+					}
+				]
+			},
+			{
+				"name": "Sand Rat Cellar MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zeklaus Desert MFI/Sand Rat Cellar MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Sand Rat Cellar",
+						"x": "154",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Sand Rat Cellar MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zeklaus Desert MFI/Sand Rat Cellar MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Sand Rat Cellar",
+						"x": "182",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Sand Rat Cellar MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zeklaus Desert MFI/Sand Rat Cellar MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Sand Rat Cellar",
+						"x": "294",
+						"y": "266"
+					}
+				]
+			},
+			{
+				"name": "Sand Rat Cellar MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zeklaus Desert MFI/Sand Rat Cellar MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Sand Rat Cellar",
+						"x": "294",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Zaland MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zaland MFI/Zaland MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zaland",
+						"x": "14",
+						"y": "294"
+					}
+				]
+			},
+			{
+				"name": "Zaland MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zaland MFI/Zaland MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zaland",
+						"x": "14",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Zaland MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zaland MFI/Zaland MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zaland",
+						"x": "126",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Zaland MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zaland MFI/Zaland MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zaland",
+						"x": "210",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "Zeltennia Castle MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zeltennia Castle MFI/Zeltennia Castle MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zeltennia Castle",
+						"x": "70",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Zeltennia Castle MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zeltennia Castle MFI/Zeltennia Castle MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zeltennia Castle",
+						"x": "126",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Zeltennia Castle MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zeltennia Castle MFI/Zeltennia Castle MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zeltennia Castle",
+						"x": "126",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Zeltennia Castle MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zeltennia Castle MFI/Zeltennia Castle MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zeltennia Castle",
+						"x": "210",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Goland Underground Passage MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Underground Passage MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Underground Passage",
+						"x": "42",
+						"y": "406"
+					}
+				]
+			},
+			{
+				"name": "Goland Underground Passage MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Underground Passage MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Underground Passage",
+						"x": "70",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Goland Underground Passage MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Underground Passage MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Underground Passage",
+						"x": "126",
+						"y": "294"
+					}
+				]
+			},
+			{
+				"name": "Goland Underground Passage MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goland Coal City MFI/Goland Underground Passage MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goland Underground Passage",
+						"x": "154",
+						"y": "490"
+					}
+				]
+			},
+			{
+				"name": "Goug MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goug MFI/Goug MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goug",
+						"x": "70",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Goug MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goug MFI/Goug MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goug",
+						"x": "70",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Goug MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goug MFI/Goug MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goug",
+						"x": "126",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Goug MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Goug MFI/Goug MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Goug",
+						"x": "294",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "Bervenia City MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bervenia City MFI/Bervenia City MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bervenia City",
+						"x": "14",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Bervenia City MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bervenia City MFI/Bervenia City MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bervenia City",
+						"x": "154",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Bervenia City MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bervenia City MFI/Bervenia City MFI, $four_jump_rule"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bervenia City",
+						"x": "210",
+						"y": "294"
+					}
+				]
+			},
+			{
+				"name": "Bervenia City MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bervenia City MFI/Bervenia City MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bervenia City",
+						"x": "266",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Zarghidas MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zarghidas MFI/Zarghidas MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zarghidas",
+						"x": "14",
+						"y": "378"
+					}
+				]
+			},
+			{
+				"name": "Zarghidas MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zarghidas MFI/Zarghidas MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zarghidas",
+						"x": "14",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "Zarghidas MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zarghidas MFI/Zarghidas MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zarghidas",
+						"x": "14",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Zarghidas MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zarghidas MFI/Zarghidas MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zarghidas",
+						"x": "266",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Fort Zeakden MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Fort Zeakden MFI/Fort Zeakden MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Fort Zeakden",
+						"x": "98",
+						"y": "266"
+					}
+				]
+			},
+			{
+				"name": "Fort Zeakden MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Fort Zeakden MFI/Fort Zeakden MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Fort Zeakden",
+						"x": "70",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Fort Zeakden MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Fort Zeakden MFI/Fort Zeakden MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Fort Zeakden",
+						"x": "126",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Fort Zeakden MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Fort Zeakden MFI/Fort Zeakden MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Fort Zeakden",
+						"x": "238",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Murond Temple Outside MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Murond Temple MFI/Murond Temple Outside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Murond Temple Outside",
+						"x": "14",
+						"y": "294"
+					}
+				]
+			},
+			{
+				"name": "Murond Temple Outside MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Murond Temple MFI/Murond Temple Outside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Murond Temple Outside",
+						"x": "14",
+						"y": "266"
+					}
+				]
+			},
+			{
+				"name": "Murond Temple Outside MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Murond Temple MFI/Murond Temple Outside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Murond Temple Outside",
+						"x": "182",
+						"y": "322"
+					}
+				]
+			},
+			{
+				"name": "Murond Temple Outside MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Murond Temple MFI/Murond Temple Outside MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Murond Temple Outside",
+						"x": "210",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Lost Sacred Precincts MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne/Underground Book Storage 4 Story Battle",
+					"@Murond Death City MFI/Lost Sacred Precincts MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lost Sacred Precincts",
+						"x": "70",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "Lost Sacred Precincts MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne/Underground Book Storage 4 Story Battle",
+					"@Murond Death City MFI/Lost Sacred Precincts MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lost Sacred Precincts",
+						"x": "126",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Lost Sacred Precincts MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne/Underground Book Storage 4 Story Battle",
+					"@Murond Death City MFI/Lost Sacred Precincts MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lost Sacred Precincts",
+						"x": "154",
+						"y": "322"
+					}
+				]
+			},
+			{
+				"name": "Lost Sacred Precincts MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne/Underground Book Storage 4 Story Battle",
+					"@Murond Death City MFI/Lost Sacred Precincts MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lost Sacred Precincts",
+						"x": "210",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Graveyard of Airships MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Graveyard of Airships MFI", 
+					"@Murond Death City MFI/Graveyard of Airships MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Graveyard of Airships",
+						"x": "14",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Graveyard of Airships MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Graveyard of Airships MFI", 
+					"@Murond Death City MFI/Graveyard of Airships MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Graveyard of Airships",
+						"x": "14",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Graveyard of Airships MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Graveyard of Airships MFI", 
+					"@Murond Death City MFI/Graveyard of Airships MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Graveyard of Airships",
+						"x": "406",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Graveyard of Airships MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Graveyard of Airships MFI", 
+					"@Murond Death City MFI/Graveyard of Airships MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Graveyard of Airships",
+						"x": "434",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 1 MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 1 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 1",
+						"x": "42",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 1 MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 1 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 1",
+						"x": "70",
+						"y": "350"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 1 MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 1 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 1",
+						"x": "182",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 1 MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 1 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 1",
+						"x": "238",
+						"y": "350"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 2 MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 2 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 2",
+						"x": "14",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 2 MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 2 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 2",
+						"x": "126",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 2 MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 2 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 2",
+						"x": "154",
+						"y": "322"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 2 MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 2 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 2",
+						"x": "266",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 3 MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 3 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 3",
+						"x": "14",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 3 MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 3 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 3",
+						"x": "154",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 3 MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 3 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 3",
+						"x": "266",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 3 MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 3 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 3",
+						"x": "322",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 4 MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 4 MFI", 
+					"@Murond Death City MFI/Underground Book Storage 4 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 4",
+						"x": "14",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 4 MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 4 MFI", 
+					"@Murond Death City MFI/Underground Book Storage 4 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 4",
+						"x": "70",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 4 MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 4 MFI", 
+					"@Murond Death City MFI/Underground Book Storage 4 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 4",
+						"x": "322",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 4 MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 4 MFI", 
+					"@Murond Death City MFI/Underground Book Storage 4 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 4",
+						"x": "434",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 5 MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 5 MFI", 
+					"@Murond Death City MFI/Underground Book Storage 5 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 5",
+						"x": "14",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 5 MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 5 MFI", 
+					"@Murond Death City MFI/Underground Book Storage 5 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 5",
+						"x": "154",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 5 MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 5 MFI", 
+					"@Murond Death City MFI/Underground Book Storage 5 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 5",
+						"x": "182",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Underground Book Storage 5 MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Underground Book Storage 5 MFI", 
+					"@Murond Death City MFI/Underground Book Storage 5 MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Underground Book Storage 5",
+						"x": "322",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Golgorand Execution Site MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Golgorand Execution Site MFI/Golgorand Execution Site MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Golgorand Execution Site",
+						"x": "14",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Golgorand Execution Site MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Golgorand Execution Site MFI/Golgorand Execution Site MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Golgorand Execution Site",
+						"x": "126",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Golgorand Execution Site MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Golgorand Execution Site MFI/Golgorand Execution Site MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Golgorand Execution Site",
+						"x": "210",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Golgorand Execution Site MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Golgorand Execution Site MFI/Golgorand Execution Site MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Golgorand Execution Site",
+						"x": "210",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Bethla Sluice MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bethla Garrison MFI/Bethla Sluice MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bethla Sluice",
+						"x": "42",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Bethla Sluice MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bethla Garrison MFI/Bethla Sluice MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bethla Sluice",
+						"x": "154",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Bethla Sluice MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bethla Garrison MFI/Bethla Sluice MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bethla Sluice",
+						"x": "238",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Bethla Sluice MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bethla Garrison MFI/Bethla Sluice MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bethla Sluice",
+						"x": "322",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Bethla Garrison South Wall MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bethla Garrison MFI/Bethla Garrison South Wall MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bethla Garrison South Wall",
+						"x": "42",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Bethla Garrison South Wall MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bethla Garrison MFI/Bethla Garrison South Wall MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bethla Garrison South Wall",
+						"x": "70",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Bethla Garrison South Wall MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bethla Garrison MFI/Bethla Garrison South Wall MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bethla Garrison South Wall",
+						"x": "126",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Bethla Garrison South Wall MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bethla Garrison MFI/Bethla Garrison South Wall MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bethla Garrison South Wall",
+						"x": "210",
+						"y": "294"
+					}
+				]
+			},
+			{
+				"name": "Bethla Garrison North Wall MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bethla Garrison MFI/Bethla Garrison North Wall MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bethla Garrison North Wall",
+						"x": "14",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Bethla Garrison North Wall MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bethla Garrison MFI/Bethla Garrison North Wall MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bethla Garrison North Wall",
+						"x": "98",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Bethla Garrison North Wall MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bethla Garrison MFI/Bethla Garrison North Wall MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bethla Garrison North Wall",
+						"x": "294",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Bethla Garrison North Wall MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bethla Garrison MFI/Bethla Garrison North Wall MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bethla Garrison North Wall",
+						"x": "322",
+						"y": "294"
+					}
+				]
+			},
+			{
+				"name": "Murond Death City MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Murond Death City MFI", 
+					"@Murond Death City MFI/Murond Death City MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Murond Death City",
+						"x": "14",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Murond Death City MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Murond Death City MFI", 
+					"@Murond Death City MFI/Murond Death City MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Murond Death City",
+						"x": "14",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Murond Death City MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Murond Death City MFI", 
+					"@Murond Death City MFI/Murond Death City MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Murond Death City",
+						"x": "98",
+						"y": "322"
+					}
+				]
+			},
+			{
+				"name": "Murond Death City MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Orbonne Monastery MFI/Murond Death City MFI", 
+					"@Murond Death City MFI/Murond Death City MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Murond Death City",
+						"x": "126",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Nelveska Temple MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Nelveska Temple MFI/Nelveska Temple MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [
+							"$checkshoplevel|4, mediator, $check_poach_logic|Behemoth",
+							"$checkshoplevel|4, mediator, $check_poach_logic|King Behemoth",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Dark Behemoth",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Hyudra",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Hydra",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Tiamat",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Dragon",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Blue Dragon",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Red Dragon",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Morbol",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Ochu",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Great Morbol",
+							"$checkshoplevel|4, mfilogicchemistinnate, dancer",
+							"mfilogicblueteaminnate, dancer, monk",
+							"mfilogicblueteaminnate, dancer, thief",
+							"mfilogicblueteaminnate, dancer, ninja",
+							"mfilogicblueteaminnate, lancer",
+							"mfilogicblueteaminnate, timemage"
+						],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Nelveska Temple",
+						"x": "42",
+						"y": "266"
+					}
+				]
+			},
+			{
+				"name": "Nelveska Temple MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Nelveska Temple MFI/Nelveska Temple MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Nelveska Temple",
+						"x": "42",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Nelveska Temple MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Nelveska Temple MFI/Nelveska Temple MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Nelveska Temple",
+						"x": "98",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Nelveska Temple MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Nelveska Temple MFI/Nelveska Temple MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [
+							"$checkshoplevel|4, mediator, $check_poach_logic|Behemoth",
+							"$checkshoplevel|4, mediator, $check_poach_logic|King Behemoth",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Dark Behemoth",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Hyudra",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Hydra",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Tiamat",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Dragon",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Blue Dragon",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Red Dragon",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Morbol",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Ochu",
+							"$checkshoplevel|4, mediator, $check_poach_logic|Great Morbol",
+							"$checkshoplevel|4, mfilogicchemistinnate, dancer",
+							"mfilogicblueteaminnate, dancer, monk",
+							"mfilogicblueteaminnate, dancer, thief",
+							"mfilogicblueteaminnate, dancer, ninja",
+							"mfilogicblueteaminnate, lancer",
+							"mfilogicblueteaminnate, timemage"
+						],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Nelveska Temple",
+						"x": "154",
+						"y": "266"
+					}
+				]
+			},
+			{
+				"name": "Dolbodar Swamp MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Dolbodar Swamp MFI/Dolbodar Swamp MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dolbodar Swamp",
+						"x": "14",
+						"y": "266"
+					}
+				]
+			},
+			{
+				"name": "Dolbodar Swamp MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Dolbodar Swamp MFI/Dolbodar Swamp MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dolbodar Swamp",
+						"x": "70",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Dolbodar Swamp MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Dolbodar Swamp MFI/Dolbodar Swamp MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dolbodar Swamp",
+						"x": "98",
+						"y": "266"
+					}
+				]
+			},
+			{
+				"name": "Dolbodar Swamp MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Dolbodar Swamp MFI/Dolbodar Swamp MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dolbodar Swamp",
+						"x": "350",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Fovoham Plains MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Fovoham Plains MFI/Fovoham Plains MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Fovoham Plains",
+						"x": "14",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Fovoham Plains MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Fovoham Plains MFI/Fovoham Plains MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Fovoham Plains",
+						"x": "42",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Fovoham Plains MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Fovoham Plains MFI/Fovoham Plains MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Fovoham Plains",
+						"x": "126",
+						"y": "322"
+					}
+				]
+			},
+			{
+				"name": "Fovoham Plains MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Fovoham Plains MFI/Fovoham Plains MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Fovoham Plains",
+						"x": "182",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Sweegy Woods MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Sweegy Woods MFI/Sweegy Woods MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Sweegy Woods",
+						"x": "14",
+						"y": "294"
+					}
+				]
+			},
+			{
+				"name": "Sweegy Woods MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Sweegy Woods MFI/Sweegy Woods MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Sweegy Woods",
+						"x": "42",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Sweegy Woods MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Sweegy Woods MFI/Sweegy Woods MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Sweegy Woods",
+						"x": "154",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Sweegy Woods MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Sweegy Woods MFI/Sweegy Woods MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Sweegy Woods",
+						"x": "182",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Bervenia Volcano MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bervenia Volcano MFI3/Bervenia Volcano MFI3",
+					"@Bervenia Volcano MFI4/Bervenia Volcano MFI4"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bervenia Volcano",
+						"x": "98",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Bervenia Volcano MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bervenia Volcano MFI3/Bervenia Volcano MFI3",
+					"@Bervenia Volcano MFI4/Bervenia Volcano MFI4"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": ["geomancer", "timemage"],
+						"visibility_rules": ["mfilogicchemistinnate", "mfilogicblueteaminnate"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bervenia Volcano",
+						"x": "126",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Bervenia Volcano MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bervenia Volcano MFI3/Bervenia Volcano MFI3",
+					"@Bervenia Volcano MFI4/Bervenia Volcano MFI4"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bervenia Volcano",
+						"x": "154",
+						"y": "294"
+					}
+				]
+			},
+			{
+				"name": "Bervenia Volcano MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bervenia Volcano MFI3/Bervenia Volcano MFI3, $four_jump_rule",
+					"@Bervenia Volcano MFI4/Bervenia Volcano MFI4, $four_jump_rule"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bervenia Volcano",
+						"x": "238",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Zeklaus Desert MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zeklaus Desert MFI/Zeklaus Desert MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zeklaus Desert",
+						"x": "14",
+						"y": "322"
+					}
+				]
+			},
+			{
+				"name": "Zeklaus Desert MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zeklaus Desert MFI/Zeklaus Desert MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zeklaus Desert",
+						"x": "70",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Zeklaus Desert MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zeklaus Desert MFI/Zeklaus Desert MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zeklaus Desert",
+						"x": "182",
+						"y": "434"
+					}
+				]
+			},
+			{
+				"name": "Zeklaus Desert MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zeklaus Desert MFI/Zeklaus Desert MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zeklaus Desert",
+						"x": "182",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Lenalia Plateau MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lenalia Plateau MFI/Lenalia Plateau MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lenalia Plateau",
+						"x": "70",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Lenalia Plateau MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lenalia Plateau MFI/Lenalia Plateau MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lenalia Plateau",
+						"x": "126",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "Lenalia Plateau MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lenalia Plateau MFI/Lenalia Plateau MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lenalia Plateau",
+						"x": "154",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Lenalia Plateau MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Lenalia Plateau MFI/Lenalia Plateau MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Lenalia Plateau",
+						"x": "294",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Zigolis Swamp MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zigolis Swamp MFI/Zigolis Swamp MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zigolis Swamp",
+						"x": "42",
+						"y": "322"
+					}
+				]
+			},
+			{
+				"name": "Zigolis Swamp MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zigolis Swamp MFI/Zigolis Swamp MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zigolis Swamp",
+						"x": "126",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Zigolis Swamp MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zigolis Swamp MFI/Zigolis Swamp MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zigolis Swamp",
+						"x": "182",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Zigolis Swamp MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zigolis Swamp MFI/Zigolis Swamp MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zigolis Swamp",
+						"x": "322",
+						"y": "294"
+					}
+				]
+			},
+			{
+				"name": "Yuguo Woods MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Yuguo Woods MFI/Yuguo Woods MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Yuguo Woods",
+						"x": "14",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "Yuguo Woods MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Yuguo Woods MFI/Yuguo Woods MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Yuguo Woods",
+						"x": "126",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Yuguo Woods MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Yuguo Woods MFI/Yuguo Woods MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Yuguo Woods",
+						"x": "210",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Yuguo Woods MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Yuguo Woods MFI/Yuguo Woods MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Yuguo Woods",
+						"x": "266",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Araguay Woods MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Araguay Woods MFI/Araguay Woods MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Araguay Woods",
+						"x": "98",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Araguay Woods MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Araguay Woods MFI/Araguay Woods MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Araguay Woods",
+						"x": "126",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Araguay Woods MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Araguay Woods MFI/Araguay Woods MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Araguay Woods",
+						"x": "238",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Araguay Woods MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Araguay Woods MFI/Araguay Woods MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Araguay Woods",
+						"x": "322",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Grog Hill MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Grog Hill MFI/Grog Hill MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Grog Hill",
+						"x": "14",
+						"y": "322"
+					}
+				]
+			},
+			{
+				"name": "Grog Hill MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Grog Hill MFI/Grog Hill MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Grog Hill",
+						"x": "14",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Grog Hill MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Grog Hill MFI/Grog Hill MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Grog Hill",
+						"x": "266",
+						"y": "322"
+					}
+				]
+			},
+			{
+				"name": "Grog Hill MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Grog Hill MFI/Grog Hill MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Grog Hill",
+						"x": "266",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Bed Desert MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bed Desert MFI/Bed Desert MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bed Desert",
+						"x": "98",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Bed Desert MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bed Desert MFI/Bed Desert MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bed Desert",
+						"x": "126",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Bed Desert MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bed Desert MFI/Bed Desert MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bed Desert",
+						"x": "238",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Bed Desert MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bed Desert MFI/Bed Desert MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bed Desert",
+						"x": "238",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Zirekile Falls MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zirekile Falls MFI/Zirekile Falls MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zirekile Falls",
+						"x": "42",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Zirekile Falls MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zirekile Falls MFI/Zirekile Falls MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zirekile Falls",
+						"x": "154",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Zirekile Falls MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zirekile Falls MFI/Zirekile Falls MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zirekile Falls",
+						"x": "210",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Zirekile Falls MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Zirekile Falls MFI/Zirekile Falls MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Zirekile Falls",
+						"x": "238",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Bariaus Hill MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bariaus Hill MFI/Bariaus Hill MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bariaus Hill",
+						"x": "98",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Bariaus Hill MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bariaus Hill MFI/Bariaus Hill MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bariaus Hill",
+						"x": "238",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Bariaus Hill MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bariaus Hill MFI/Bariaus Hill MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bariaus Hill",
+						"x": "322",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Bariaus Hill MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bariaus Hill MFI/Bariaus Hill MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bariaus Hill",
+						"x": "378",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "Mandalia Plains MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Mandalia Plains MFI/Mandalia Plains MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Mandalia Plains",
+						"x": "14",
+						"y": "350"
+					}
+				]
+			},
+			{
+				"name": "Mandalia Plains MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Mandalia Plains MFI/Mandalia Plains MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Mandalia Plains",
+						"x": "126",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Mandalia Plains MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Mandalia Plains MFI/Mandalia Plains MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Mandalia Plains",
+						"x": "126",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Mandalia Plains MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Mandalia Plains MFI/Mandalia Plains MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Mandalia Plains",
+						"x": "238",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "Doguola Pass MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Doguola Pass MFI/Doguola Pass MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Doguola Pass",
+						"x": "14",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "Doguola Pass MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Doguola Pass MFI/Doguola Pass MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Doguola Pass",
+						"x": "154",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "Doguola Pass MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Doguola Pass MFI/Doguola Pass MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Doguola Pass",
+						"x": "182",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Doguola Pass MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Doguola Pass MFI/Doguola Pass MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Doguola Pass",
+						"x": "266",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Bariaus Valley MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bariaus Valley MFI/Bariaus Valley MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bariaus Valley",
+						"x": "14",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Bariaus Valley MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bariaus Valley MFI/Bariaus Valley MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bariaus Valley",
+						"x": "42",
+						"y": "266"
+					}
+				]
+			},
+			{
+				"name": "Bariaus Valley MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bariaus Valley MFI/Bariaus Valley MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bariaus Valley",
+						"x": "322",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "Bariaus Valley MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Bariaus Valley MFI/Bariaus Valley MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Bariaus Valley",
+						"x": "322",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Finath River MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Finath River MFI/Finath River MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Finath River",
+						"x": "42",
+						"y": "322"
+					}
+				]
+			},
+			{
+				"name": "Finath River MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Finath River MFI/Finath River MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Finath River",
+						"x": "70",
+						"y": "434"
+					}
+				]
+			},
+			{
+				"name": "Finath River MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Finath River MFI/Finath River MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Finath River",
+						"x": "98",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Finath River MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Finath River MFI/Finath River MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Finath River",
+						"x": "266",
+						"y": "350"
+					}
+				]
+			},
+			{
+				"name": "Poeskas Lake MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Poeskas Lake MFI/Poeskas Lake MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Poeskas Lake",
+						"x": "98",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Poeskas Lake MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Poeskas Lake MFI/Poeskas Lake MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Poeskas Lake",
+						"x": "154",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Poeskas Lake MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Poeskas Lake MFI/Poeskas Lake MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Poeskas Lake",
+						"x": "182",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Poeskas Lake MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Poeskas Lake MFI/Poeskas Lake MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Poeskas Lake",
+						"x": "238",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Germinas Peak MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Germinas Peak MFI/Germinas Peak MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Germinas Peak",
+						"x": "98",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "Germinas Peak MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Germinas Peak MFI/Germinas Peak MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Germinas Peak",
+						"x": "98",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Germinas Peak MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Germinas Peak MFI/Germinas Peak MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Germinas Peak",
+						"x": "126",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Germinas Peak MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Germinas Peak MFI/Germinas Peak MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Germinas Peak",
+						"x": "210",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "Thieves' Fort MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Thieves' Fort MFI/Thieves' Fort MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Thieves' Fort",
+						"x": "42",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Thieves' Fort MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Thieves' Fort MFI/Thieves' Fort MFI, $four_jump_rule"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Thieves' Fort",
+						"x": "70",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Thieves' Fort MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Thieves' Fort MFI/Thieves' Fort MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Thieves' Fort",
+						"x": "154",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "Thieves' Fort MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Thieves' Fort MFI/Thieves' Fort MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Thieves' Fort",
+						"x": "266",
+						"y": "322"
+					}
+				]
+			},
+			{
+				"name": "Windmill Shed MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Fovoham Plains MFI/Windmill Shed MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Windmill Shed",
+						"x": "14",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "Windmill Shed MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Fovoham Plains MFI/Windmill Shed MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Windmill Shed",
+						"x": "98",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "Windmill Shed MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Fovoham Plains MFI/Windmill Shed MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Windmill Shed",
+						"x": "154",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "Windmill Shed MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Fovoham Plains MFI/Windmill Shed MFI"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Windmill Shed",
+						"x": "182",
+						"y": "266"
+					}
+				]
+			},
+			{
+				"name": "TERMINATE MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/TERMINATE MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TERMINATE",
+						"x": "14",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "TERMINATE MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/TERMINATE MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TERMINATE",
+						"x": "42",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "TERMINATE MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/TERMINATE MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TERMINATE",
+						"x": "210",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "TERMINATE MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/TERMINATE MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TERMINATE",
+						"x": "294",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "DELTA MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/DELTA MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DELTA",
+						"x": "14",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "DELTA MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/DELTA MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DELTA",
+						"x": "182",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "DELTA MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/DELTA MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DELTA",
+						"x": "266",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "DELTA MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/DELTA MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DELTA",
+						"x": "350",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "NOGIAS MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/NOGIAS MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "NOGIAS",
+						"x": "14",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "NOGIAS MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/NOGIAS MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "NOGIAS",
+						"x": "14",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "NOGIAS MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/NOGIAS MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "NOGIAS",
+						"x": "70",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "NOGIAS MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/NOGIAS MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "NOGIAS",
+						"x": "266",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "VOYAGE MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/VOYAGE MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "VOYAGE",
+						"x": "70",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "VOYAGE MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/VOYAGE MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "VOYAGE",
+						"x": "98",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "VOYAGE MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/VOYAGE MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "VOYAGE",
+						"x": "182",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "VOYAGE MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/VOYAGE MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "VOYAGE",
+						"x": "238",
+						"y": "210"
+					}
+				]
+			},
+			{
+				"name": "BRIDGE MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/BRIDGE MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BRIDGE",
+						"x": "126",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "BRIDGE MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/BRIDGE MFI, $four_jump_rule"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BRIDGE",
+						"x": "294",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "BRIDGE MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/BRIDGE MFI, $four_jump_rule"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BRIDGE",
+						"x": "350",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "BRIDGE MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/BRIDGE MFI, $four_jump_rule"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BRIDGE",
+						"x": "406",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "VALKYRIES MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/VALKYRIES MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "VALKYRIES",
+						"x": "126",
+						"y": "238"
+					}
+				]
+			},
+			{
+				"name": "VALKYRIES MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/VALKYRIES MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "VALKYRIES",
+						"x": "154",
+						"y": "294"
+					}
+				]
+			},
+			{
+				"name": "VALKYRIES MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/VALKYRIES MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "VALKYRIES",
+						"x": "154",
+						"y": "266"
+					}
+				]
+			},
+			{
+				"name": "VALKYRIES MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/VALKYRIES MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "VALKYRIES",
+						"x": "350",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "MLAPAN MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/MLAPAN MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLAPAN",
+						"x": "14",
+						"y": "322"
+					}
+				]
+			},
+			{
+				"name": "MLAPAN MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/MLAPAN MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLAPAN",
+						"x": "14",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "MLAPAN MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/MLAPAN MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLAPAN",
+						"x": "70",
+						"y": "98"
+					}
+				]
+			},
+			{
+				"name": "MLAPAN MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/MLAPAN MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLAPAN",
+						"x": "182",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "TIGER MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/TIGER MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TIGER",
+						"x": "266",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "TIGER MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/TIGER MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TIGER",
+						"x": "266",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "TIGER MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/TIGER MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TIGER",
+						"x": "294",
+						"y": "42"
+					}
+				]
+			},
+			{
+				"name": "TIGER MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/TIGER MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TIGER",
+						"x": "294",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "HORROR MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/HORROR MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HORROR",
+						"x": "42",
+						"y": "182"
+					}
+				]
+			},
+			{
+				"name": "HORROR MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/HORROR MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HORROR",
+						"x": "70",
+						"y": "266"
+					}
+				]
+			},
+			{
+				"name": "HORROR MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/HORROR MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HORROR",
+						"x": "238",
+						"y": "154"
+					}
+				]
+			},
+			{
+				"name": "HORROR MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/HORROR MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HORROR",
+						"x": "238",
+						"y": "126"
+					}
+				]
+			},
+			{
+				"name": "END MFI 1",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/END MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 1",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "END",
+						"x": "154",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "END MFI 2",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/END MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 2",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "END",
+						"x": "154",
+						"y": "14"
+					}
+				]
+			},
+			{
+				"name": "END MFI 3",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/END MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 3",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "END",
+						"x": "210",
+						"y": "70"
+					}
+				]
+			},
+			{
+				"name": "END MFI 4",
+				"overlay_background": "#000000",
+				"access_rules": [
+					"@Deep Dungeon MFI/END MFI"
+				],
+				"visibility_rules": [
+					"$sidequestson"
+				],
+				"sections": [
+					{
+						"name": "MFI 4",
+						"access_rules": [],
+						"visibility_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "END",
+						"x": "210",
+						"y": "14"
+					}
+				]
+			},
+        ]
+    }
+]

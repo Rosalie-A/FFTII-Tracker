@@ -22,5 +22,443 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/worldmaplarge.png"
+    },
+    {
+        "name": "World Map MFI",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/worldmapmfi.png"
+    },
+	{
+        "name": "Araguay Woods",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/araguaywoods.png"
+    },
+	{
+        "name": "Bariaus Hill",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/bariaushill.png"
+    },
+	{
+        "name": "Bariaus Valley",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/bariausvalley.png"
+    },
+	{
+        "name": "Bed Desert",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/beddesert.png"
+    },
+	{
+        "name": "Bervenia City",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/berveniacity.png"
+    },
+	{
+        "name": "Bervenia Volcano",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/berveniavolcano.png"
+    },
+	{
+        "name": "Bethla Garrison North Wall",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/bethlanorth.png"
+    },
+	{
+        "name": "Bethla Sluice",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/bethlasluice.png"
+    },
+	{
+        "name": "Bethla Garrison South Wall",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/bethlasouth.png"
+    },
+	{
+        "name": "BRIDGE",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/bridge.png"
+    },
+	{
+        "name": "DELTA",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/delta.png"
+    },
+	{
+        "name": "Doguola Pass",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/doguolapass.png"
+    },
+	{
+        "name": "Dolbodar Swamp",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/dolbodar.png"
+    },
+	{
+        "name": "Dorter Trade City",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/dortercity.png"
+    },
+	{
+        "name": "Dorter Slums",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/dorterslums.png"
+    },
+	{
+        "name": "END",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/end.png"
+    },
+	{
+        "name": "Finath River",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/finathriver.png"
+    },
+	{
+        "name": "Fovoham Plains",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/fovohamplains.png"
+    },
+	{
+        "name": "Germinas Peak",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/germinaspeak.png"
+    },
+	{
+        "name": "Goland Coal City",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/golandcoalcity.png"
+    },
+	{
+        "name": "Goland Colliery First Floor",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/golandcollieryfirstfloor.png"
+    },
+	{
+        "name": "Goland Colliery Second Floor",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/golandcollierysecondfloor.png"
+    },
+	{
+        "name": "Goland Colliery Third Floor",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/golandcollierythirdfloor.png"
+    },
+	{
+        "name": "Goland Underground Passage",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/golandunderground.png"
+    },
+	{
+        "name": "Golgorand Execution Site",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/golgorand.png"
+    },
+	{
+        "name": "Goug",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/goug.png"
+    },
+	{
+        "name": "Graveyard of Airships",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/graveyardofairships.png"
+    },
+	{
+        "name": "Grog Hill",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/groghill.png"
+    },
+	{
+        "name": "HORROR",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/horror.png"
+    },
+	{
+        "name": "Igros Castle",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/igros.png"
+    },
+	{
+        "name": "Lenalia Plateau",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/lenaliaplateau.png"
+    },
+	{
+        "name": "Lesalia Imperial Capital",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/lesaliagate.png"
+    },
+	{
+        "name": "Limberry Underground Cemetery",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/limberrycemetery.png"
+    },
+	{
+        "name": "Limberry Castle Gate",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/limberrygate.png"
+    },
+	{
+        "name": "Limberry Castle Inside",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/limberryinside.png"
+    },
+	{
+        "name": "Lionel Castle Gate",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/lionelgate.png"
+    },
+	{
+        "name": "Lionel Castle Inside",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/lionelinside.png"
+    },
+	{
+        "name": "Lost Sacred Precincts",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/lostsacredprecincts.png"
+    },
+	{
+        "name": "Mandalia Plains",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/mandaliaplains.png"
+    },
+	{
+        "name": "MLAPAN",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/mlapan.png"
+    },
+	{
+        "name": "Murond Temple Chapel",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/murondchapel.png"
+    },
+	{
+        "name": "Murond Death City",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/muronddeathcity.png"
+    },
+	{
+        "name": "Murond Temple Hall",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/murondhall.png"
+    },
+	{
+        "name": "Murond Temple Outside",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/murondoutside.png"
+    },
+	{
+        "name": "Nelveska Temple",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/nelveskatemple.png"
+    },
+	{
+        "name": "NOGIAS",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/nogias.png"
+    },
+	{
+        "name": "Poeskas Lake",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/poeskaslake.png"
+    },
+	{
+        "name": "Riovanes Castle Gate",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/riovanesgate.png"
+    },
+	{
+        "name": "Riovanes Castle Inside",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/riovanesinside.png"
+    },
+	{
+        "name": "Riovanes Castle Rooftop",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/riovanesroof.png"
+    },
+	{
+        "name": "Sand Rat Cellar",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/sandratcellar.png"
+    },
+	{
+        "name": "Sweegy Woods",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/sweegywoods.png"
+    },
+	{
+        "name": "TERMINATE",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/terminate.png"
+    },
+	{
+        "name": "Thieves' Fort",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/thievesfort.png"
+    },
+	{
+        "name": "TIGER",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/tiger.png"
+    },
+	{
+        "name": "Underground Book Storage 1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/ubs1.png"
+    },
+	{
+        "name": "Underground Book Storage 2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/ubs2.png"
+    },
+	{
+        "name": "Underground Book Storage 3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/ubs3.png"
+    },
+	{
+        "name": "Underground Book Storage 4",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/ubs4.png"
+    },
+	{
+        "name": "Underground Book Storage 5",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/ubs5.png"
+    },
+	{
+        "name": "VALKYRIES",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/valkyries.png"
+    },
+	{
+        "name": "VOYAGE",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/voyage.png"
+    },
+	{
+        "name": "Windmill Shed",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/windmillshed.png"
+    },
+	{
+        "name": "Yardow",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/yardow.png"
+    },
+	{
+        "name": "Yuguo Woods",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/yuguowoods.png"
+    },
+	{
+        "name": "Zaland",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/zaland.png"
+    },
+	{
+        "name": "Zarghidas",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/zarghidas.png"
+    },
+	{
+        "name": "Fort Zeakden",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/zeakden.png"
+    },
+	{
+        "name": "Zeklaus Desert",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/zeklausdesert.png"
+    },
+	{
+        "name": "Zeltennia Castle",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/zeltennia.png"
+    },
+	{
+        "name": "Zigolis Swamp",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/zigolisswamp.png"
+    },
+	{
+        "name": "Zirekile Falls",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/zirekilefalls.png"
     }
 ]

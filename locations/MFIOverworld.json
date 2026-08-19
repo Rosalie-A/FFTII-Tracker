@@ -1,0 +1,1422 @@
+[
+    {
+		"name": "Lesalia MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Lesalia City/Back Gate of Lesalia Castle Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "496",
+				"y": "240",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Lesalia MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Murond Temple MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Murond Temple/St. Murond Temple Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "254",
+				"y": "460",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Murond Temple Hall MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Murond Temple Outside MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+		]
+	},
+	{
+		"name": "Riovanes Castle MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Riovanes/Gate of Riovanes Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "360",
+				"y": "166",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Riovanes Castle Gate MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Riovanes Castle Inside MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{	
+				"name": "Riovanes Castle Rooftop MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Igros Castle MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Igros/Igros Castle Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "132",
+				"y": "264",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Igros Castle MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Lionel Castle MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Lionel Castle/Gate of Lionel Castle Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "530",
+				"y": "554",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Lionel Castle Gate MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Lionel Castle Inside MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Limberry Castle MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Limberry Castle/Limberry Castle Gates Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "700",
+				"y": "448",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Limberry Castle Gate MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Limberry Castle Inside MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Limberry Underground Cemetery MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Yardow MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Yardow/Yardow Fort City Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "432",
+				"y": "124",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Yardow MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Goland Coal City MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "496",
+				"y": "294",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Goland Coal City MFI",
+				"access_rules": ["@Goland/Goland Coal City Story Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Goland Colliery First Floor MFI",
+				"access_rules": ["@Goland/Goland Colliery First Floor Sidequest Battle"],
+				"visibility_rules": ["$sidequestson"],
+				"item_count": 4
+			},
+			{
+				"name": "Goland Colliery Second Floor MFI",
+				"access_rules": ["@Goland/Goland Colliery First Floor Sidequest Battle"],
+				"visibility_rules": ["$sidequestson"],
+				"item_count": 4
+			},
+			{
+				"name": "Goland Colliery Third Floor MFI",
+				"access_rules": ["@Goland/Goland Colliery First Floor Sidequest Battle"],
+				"visibility_rules": ["$sidequestson"],
+				"item_count": 4
+			},
+			{
+				"name": "Goland Underground Passage MFI",
+				"access_rules": ["@Goland/Goland Colliery First Floor Sidequest Battle"],
+				"visibility_rules": ["$sidequestson"],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Dorter Trade City MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "408",
+				"y": "370",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Dorter Trade City MFI",
+				"access_rules": ["@Dorter/Dorter City Story Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Dorter Slums MFI",
+				"access_rules": ["@Dorter/Dorter Slums Story Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Zeklaus Desert MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "428",
+				"y": "306",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Sand Rat Cellar MFI",
+				"access_rules": ["@Zeklaus/Zeklaus Desert Story Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Zeklaus Desert MFI",
+				"access_rules": ["gallionepass, lesaliapass"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Zaland MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Zaland/Zaland Fort City Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "504",
+				"y": "466",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Zaland MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Zeltennia Castle MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Zeltennia City/Zeltennia Castle Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "750",
+				"y": "230",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Zeltennia Castle MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Goug MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Goug/Slums of Goug Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "310",
+				"y": "578",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Goug MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Bervenia City MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Bervenia City/Bervenia Free City Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "620",
+				"y": "256",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Bervenia City MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Zarghidas MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Zarghidas/Zarghidas Trade City Sidequest Battle"
+		],
+		"visibility_rules": [
+			"$sidequestson, mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "824",
+				"y": "280",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Zarghidas MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Fort Zeakden MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Zeakden/Fort Zeakden Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "220",
+				"y": "240",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Fort Zeakden MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Murond Death City MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Murond Death City/Underground Book Storage 4 Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled, $altimaonlyoff"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "770",
+				"y": "524",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Underground Book Storage 4 MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Underground Book Storage 5 MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Murond Death City MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Lost Sacred Precincts MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Graveyard of Airships MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Orbonne Monastery MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "456",
+				"y": "410",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Underground Book Storage 1 MFI",
+				"access_rules": ["@Orbonne/Underground Book Storage 2 Story Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Underground Book Storage 2 MFI",
+				"access_rules": ["@Orbonne/Underground Book Storage 2 Story Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Underground Book Storage 3 MFI",
+				"access_rules": ["@Orbonne/Underground Book Storage 2 Story Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Underground Book Storage 4 MFI",
+				"access_rules": ["@Orbonne/Underground Book Storage 4 Story Battle"],
+				"visibility_rules": ["$altimaonlyon"],
+				"item_count": 4
+			},
+			{
+				"name": "Underground Book Storage 5 MFI",
+				"access_rules": ["@Orbonne/Underground Book Storage 4 Story Battle"],
+				"visibility_rules": ["$altimaonlyon"],
+				"item_count": 4
+			},
+			{
+				"name": "Murond Death City MFI",
+				"access_rules": ["@Orbonne/Underground Book Storage 4 Story Battle"],
+				"visibility_rules": ["$altimaonlyon"],
+				"item_count": 4
+			},
+			{
+				"name": "Lost Sacred Precincts MFI",
+				"access_rules": ["@Orbonne/Underground Book Storage 4 Story Battle"],
+				"visibility_rules": ["$altimaonlyon"],
+				"item_count": 4
+			},
+			{
+				"name": "Graveyard of Airships MFI",
+				"access_rules": ["@Orbonne/Underground Book Storage 4 Story Battle"],
+				"visibility_rules": ["$altimaonlyon"],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Golgorand Execution Site MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Golgorand/Golgorand Execution Site Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "510",
+				"y": "618",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Golgorand Execution Site MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Bethla Garrison MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Bethla/Bethla Garrison North Wall Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "582",
+				"y": "398",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Bethla Garrison North Wall MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Bethla Garrison South Wall MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Bethla Sluice MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Nelveska Temple MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Nelveska/Nelveska Temple Sidequest Battle, [$checkshoplevel|4], [mediator], [$check_poach_logic|Behemoth]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [$checkshoplevel|4], [mediator], [$check_poach_logic|King Behemoth]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [$checkshoplevel|4], [mediator], [$check_poach_logic|Dark Behemoth]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [$checkshoplevel|4], [mediator], [$check_poach_logic|Hyudra]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [$checkshoplevel|4], [mediator], [$check_poach_logic|Hydra]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [$checkshoplevel|4], [mediator], [$check_poach_logic|Tiamat]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [$checkshoplevel|4], [mediator], [$check_poach_logic|Dragon]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [$checkshoplevel|4], [mediator], [$check_poach_logic|Blue Dragon]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [$checkshoplevel|4], [mediator], [$check_poach_logic|Red Dragon]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [$checkshoplevel|4], [mediator], [$check_poach_logic|Morbol]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [$checkshoplevel|4], [mediator], [$check_poach_logic|Ochu]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [$checkshoplevel|4], [mediator], [$check_poach_logic|Great Morbol]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [$checkshoplevel|4], [mfilogicchemistinnate], [dancer]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [mfilogicblueteaminnate], [dancer], [monk]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [mfilogicblueteaminnate], [dancer], [thief]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [mfilogicblueteaminnate], [dancer], [ninja]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [mfilogicblueteaminnate], [lancer]",
+			"@Nelveska/Nelveska Temple Sidequest Battle, [mfilogicblueteaminnate], [timemage]"
+		],
+		"visibility_rules": [
+			"$sidequestson, mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "696",
+				"y": "144",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Nelveska Temple MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Dolbodar Swamp MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"gallionepass, fovohampass, zeltenniapass, limberrypass",
+            "gallionepass, lesaliapass, limberrypass"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "656",
+				"y": "404",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Dolbodar Swamp MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Fovoham Plains MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "278",
+				"y": "190",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Windmill Shed MFI",
+				"access_rules": ["@Fovoham Plains/Fovoham Plains Story Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "Fovoham Plains MFI",
+				"access_rules": ["gallionepass, fovohampass"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Sweegy Woods MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "342",
+				"y": "334",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Sweegy Woods MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Bervenia Volcano MFI3",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"gallionepass, lesaliapass"
+		],
+		"visibility_rules": [
+			"mfienabled, mfilogicdefault"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "372",
+				"y": "232",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Bervenia Volcano MFI3",
+				"access_rules": [
+					"mfilogicdefault, chemist"
+				],
+				"visibility_rules": ["mfilogicdefault"],
+				"item_count": 3
+			},
+		]
+	},
+	{
+		"name": "Bervenia Volcano MFI4",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"gallionepass, lesaliapass"
+		],
+		"visibility_rules": [
+			"mfienabled, mfilogicchemistinnate",
+			"mfienabled, mfilogicblueteamdefault"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "372",
+				"y": "232",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Bervenia Volcano MFI4",
+				"access_rules": [ 
+					"mfilogicchemistinnate, chemist, [timemage]", 
+					"mfilogicchemistinnate, chemist, [geomancer]", 
+					"mfilogicblueteaminnate, [timemage]",
+					"mfilogicblueteaminnate, [geomancer]"
+				],
+				"visibility_rules": [""],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Lenalia Plateau MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "294",
+				"y": "278",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Lenalia Plateau MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Zigolis Swamp MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+            "gallionepass, lesaliapass, lionelpass",
+            "gallionepass, murondpass, lionelpass"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "424",
+				"y": "540",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Zigolis Swamp MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Yuguo Woods MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+            "gallionepass, fovohampass"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "372",
+				"y": "110",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Yuguo Woods MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Araguay Woods MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"gallionepass, lesaliapass"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "480",
+				"y": "360",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Araguay Woods MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Grog Hill MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"gallionepass, fovohampass"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "488",
+				"y": "176",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Grog Hill MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Bed Desert MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"gallionepass, fovohampass, zeltenniapass, limberrypass",
+            "gallionepass, lesaliapass, limberrypass"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "610",
+				"y": "342",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Bed Desert MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Zirekile Falls MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"gallionepass, lesaliapass"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "520",
+				"y": "390",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Zirekile Falls MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Bariaus Hill MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+            "gallionepass, lesaliapass, lionelpass",
+            "gallionepass, murondpass, lionelpass"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "550",
+				"y": "500",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Bariaus Hill MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Mandalia Plains MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "168",
+				"y": "334",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Mandalia Plains MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Doguola Pass MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+            "gallionepass, fovohampass, zeltenniapass",
+            "gallionepass, lesaliapass, limberrypass, zeltenniapass"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "560",
+				"y": "230",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Doguola Pass MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Bariaus Valley MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+            "gallionepass, lesaliapass, lionelpass",
+            "gallionepass, murondpass, lionelpass"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "590",
+				"y": "574",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Bariaus Valley MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Finath River MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+            "gallionepass, fovohampass, zeltenniapass",
+            "gallionepass, lesaliapass, limberrypass, zeltenniapass"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "712",
+				"y": "276",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Finath River MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Poeskas Lake MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"gallionepass, fovohampass, zeltenniapass, limberrypass",
+            "gallionepass, lesaliapass, limberrypass"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "750",
+				"y": "392",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Poeskas Lake MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Germinas Peak MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+            "gallionepass, fovohampass, zeltenniapass",
+            "gallionepass, lesaliapass, limberrypass, zeltenniapass"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "810",
+				"y": "342",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Germinas Peak MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Thieves' Fort MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"@Thieves' Fort/Thieves' Fort Story Battle"
+		],
+		"visibility_rules": [
+			"mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "152",
+				"y": "400",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "Thieves' Fort MFI",
+				"access_rules": ["mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	},
+	{
+		"name": "Deep Dungeon MFI",
+		"chest_unopened_img": "/images/items/mfi.png",
+		"chest_opened_img": "/images/items/mfifound.png",
+		"overlay_background": "#000000",
+		"access_rules": [
+			"mfilogicdefault, chemist", "mfilogicchemistinnate, chemist", "mfilogicblueteaminnate"
+		],
+		"visibility_rules": [
+			"$sidequestson, mfienabled"
+		],
+		"map_locations": [
+			{
+				"map": "World Map MFI",
+				"x": "768",
+				"y": "600",
+				"size": 12
+			}
+		],
+		"sections": [
+			{
+				"name": "NOGIAS MFI",
+				"access_rules": ["@Deep Dungeon/NOGIAS Sidequest Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "TERMINATE MFI",
+				"access_rules": ["@Deep Dungeon/TERMINATE Sidequest Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "DELTA MFI",
+				"access_rules": ["@Deep Dungeon/DELTA Sidequest Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "VALKYRIES MFI",
+				"access_rules": ["@Deep Dungeon/VALKYRIES Sidequest Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "MLAPAN MFI",
+				"access_rules": ["@Deep Dungeon/MLAPAN Sidequest Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "TIGER MFI",
+				"access_rules": ["@Deep Dungeon/TIGER Sidequest Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "BRIDGE MFI",
+				"access_rules": ["@Deep Dungeon/BRIDGE Sidequest Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "VOYAGE MFI",
+				"access_rules": ["@Deep Dungeon/VOYAGE Sidequest Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "HORROR MFI",
+				"access_rules": ["@Deep Dungeon/HORROR Sidequest Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			},
+			{
+				"name": "END MFI",
+				"access_rules": ["@Deep Dungeon/END Sidequest Battle"],
+				"visibility_rules": [],
+				"item_count": 4
+			}
+		]
+	}
+]

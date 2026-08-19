@@ -54,7 +54,7 @@
                     "type": "dock",
                     "content": {
                         "type": "layout",
-                        "key": "tabbed_maps_vertical"
+                        "key": "tabbed_maps"
                     }
                 }
             ]
@@ -65,7 +65,6 @@
         "background": "#00000000",
         "content": {
             "type": "dock",
-            "dropshadow": true,
             "content": [
                 {
                     "type": "dock",
@@ -113,7 +112,7 @@
                     "type": "dock",
                     "content": {
                         "type": "layout",
-                        "key": "tabbed_maps_horizontal"
+                        "key": "tabbed_maps"
                     }
                 }
             ]

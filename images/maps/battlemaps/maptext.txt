@@ -1,0 +1,450 @@
+	{
+        "name": "araguaywoods",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/araguaywoods.png"
+    },
+	{
+        "name": "bariaushill",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/bariaushill.png"
+    },
+	{
+        "name": "bariausvalley",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/bariausvalley.png"
+    },
+	{
+        "name": "beddesert",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/beddesert.png"
+    },
+	{
+        "name": "berveniacity",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/berveniacity.png"
+    },
+	{
+        "name": "berveniavolcano",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/berveniavolcano.png"
+    },
+	{
+        "name": "bethlanorth",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/bethlanorth.png"
+    },
+	{
+        "name": "bethlasluice",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/bethlasluice.png"
+    },
+	{
+        "name": "bethlasouth",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/bethlasouth.png"
+    },
+	{
+        "name": "bridge",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/bridge.png"
+    },
+	{
+        "name": "delta",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/delta.png"
+    },
+	{
+        "name": "doguolapass",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/doguolapass.png"
+    },
+	{
+        "name": "dolbodar",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/dolbodar.png"
+    },
+	{
+        "name": "dortercity",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/dortercity.png"
+    },
+	{
+        "name": "dorterslums",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/dorterslums.png"
+    },
+	{
+        "name": "end",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/end.png"
+    },
+	{
+        "name": "finathriver",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/finathriver.png"
+    },
+	{
+        "name": "fovohamplains",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/fovohamplains.png"
+    },
+	{
+        "name": "gariland",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/gariland.png"
+    },
+	{
+        "name": "germinaspeak",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/germinaspeak.png"
+    },
+	{
+        "name": "golandcoalcity",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/golandcoalcity.png"
+    },
+	{
+        "name": "golandcollieryfirstfloor",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/golandcollieryfirstfloor.png"
+    },
+	{
+        "name": "golandcollierysecondfloor",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/golandcollierysecondfloor.png"
+    },
+	{
+        "name": "golandcollierythirdfloor",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/golandcollierythirdfloor.png"
+    },
+	{
+        "name": "golandunderground",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/golandunderground.png"
+    },
+	{
+        "name": "golgorand",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/golgorand.png"
+    },
+	{
+        "name": "goug",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/goug.png"
+    },
+	{
+        "name": "graveyardofairships",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/graveyardofairships.png"
+    },
+	{
+        "name": "groghill",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/groghill.png"
+    },
+	{
+        "name": "horror",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/horror.png"
+    },
+	{
+        "name": "igros",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/igros.png"
+    },
+	{
+        "name": "lenaliaplateau",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/lenaliaplateau.png"
+    },
+	{
+        "name": "lesaliagate",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/lesaliagate.png"
+    },
+	{
+        "name": "limberrycemetery",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/limberrycemetery.png"
+    },
+	{
+        "name": "limberrygate",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/limberrygate.png"
+    },
+	{
+        "name": "limberryinside",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/limberryinside.png"
+    },
+	{
+        "name": "lionelgate",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/lionelgate.png"
+    },
+	{
+        "name": "lionelinside",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/lionelinside.png"
+    },
+	{
+        "name": "lostsacredprecincts",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/lostsacredprecincts.png"
+    },
+	{
+        "name": "makemap",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/makemaps.py"
+    },
+	{
+        "name": "mandaliaplains",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/mandaliaplains.png"
+    },
+	{
+        "name": "maptext",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/maptext.txt"
+    },
+	{
+        "name": "mlapan",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/mlapan.png"
+    },
+	{
+        "name": "murondchapel",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/murondchapel.png"
+    },
+	{
+        "name": "muronddeathcity",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/muronddeathcity.png"
+    },
+	{
+        "name": "murondhall",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/murondhall.png"
+    },
+	{
+        "name": "murondoutside",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/murondoutside.png"
+    },
+	{
+        "name": "nelveskatemple",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/nelveskatemple.png"
+    },
+	{
+        "name": "nogias",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/nogias.png"
+    },
+	{
+        "name": "poeskaslake",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/poeskaslake.png"
+    },
+	{
+        "name": "riovanesgate",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/riovanesgate.png"
+    },
+	{
+        "name": "riovanesinside",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/riovanesinside.png"
+    },
+	{
+        "name": "riovanesroof",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/riovanesroof.png"
+    },
+	{
+        "name": "sandratcellar",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/sandratcellar.png"
+    },
+	{
+        "name": "sweegywoods",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/sweegywoods.png"
+    },
+	{
+        "name": "terminate",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/terminate.png"
+    },
+	{
+        "name": "thievesfort",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/thievesfort.png"
+    },
+	{
+        "name": "tiger",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/tiger.png"
+    },
+	{
+        "name": "ubs1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/ubs1.png"
+    },
+	{
+        "name": "ubs2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/ubs2.png"
+    },
+	{
+        "name": "ubs3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/ubs3.png"
+    },
+	{
+        "name": "ubs4",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/ubs4.png"
+    },
+	{
+        "name": "ubs5",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/ubs5.png"
+    },
+	{
+        "name": "valkyries",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/valkyries.png"
+    },
+	{
+        "name": "voyage",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/voyage.png"
+    },
+	{
+        "name": "windmillshed",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/windmillshed.png"
+    },
+	{
+        "name": "yardow",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/yardow.png"
+    },
+	{
+        "name": "yuguowoods",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/yuguowoods.png"
+    },
+	{
+        "name": "zaland",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/zaland.png"
+    },
+	{
+        "name": "zarghidas",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/zarghidas.png"
+    },
+	{
+        "name": "zeakden",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/zeakden.png"
+    },
+	{
+        "name": "zeklausdesert",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/zeklausdesert.png"
+    },
+	{
+        "name": "zeltennia",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/zeltennia.png"
+    },
+	{
+        "name": "zigolisswamp",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/zigolisswamp.png"
+    },
+	{
+        "name": "zirekilefalls",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/battlemaps/zirekilefalls.png"
+    },

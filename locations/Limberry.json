@@ -35,7 +35,8 @@
                         "size": 12
                     }
                 ]
-            },{
+            },
+			{
                 "name": "Bethla",
                 "chest_unopened_img": "/images/locations/crystal.png",
                 "chest_opened_img": "/images/locations/crystalfound.png",

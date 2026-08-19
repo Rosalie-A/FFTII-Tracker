@@ -187,7 +187,7 @@
                 ]
             },
             {
-                "name": "Barius Valley",
+                "name": "Bariaus Valley",
                 "chest_unopened_img": "/images/locations/crystal.png",
                 "chest_opened_img": "/images/locations/crystalfound.png",
                 "overlay_background": "#000000",
@@ -233,6 +233,20 @@
                         "y": "574",
                         "size": 12
                     }
+                ]
+            },
+			{
+                "name": "Warjilis",
+                "chest_unopened_img": "/images/locations/crystal.png",
+                "chest_opened_img": "/images/locations/crystalfound.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    
+                ],
+                "map_locations": [
                 ]
             }
         ]

@@ -1,4 +1,48 @@
 {
+	"tabbed_maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "World Map",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "World Map"
+                    ]
+                }
+            },
+            {
+                "title": "Jobs",
+                "content": {
+                    "type": "container",
+                    "content": [
+						{
+							"type": "map",
+							"maps": [
+								"Job Tree"
+							]
+						}
+                    ]
+                }
+            },
+            {
+                "title": "Poaches",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Poaches"
+                    ]
+                }
+            },
+			{
+				"title": "Move-Find Items",
+				"content": {
+					"type": "layout",
+					"key": "movefinditems"
+				}
+			}
+        ]
+    },
     "tabbed_maps_horizontal": {
         "type": "tabbed",
         "tabs": [
@@ -33,7 +77,14 @@
                         "Poaches"
                     ]
                 }
-            }
+            },
+			{
+				"title": "Move-Find Items",
+				"content": {
+					"type": "layout",
+					"key": "movefinditems"
+				}
+			}
         ]
     },
     "tabbed_maps_vertical": {
@@ -51,16 +102,11 @@
             {
                 "title": "Jobs",
                 "content": {
-                    "type": "container",
-                    "content": [
-						{
-							"type": "map",
-							"maps": [
-								"Job Tree"
-							]
-						}
-                    ]
-                }
+                    "type": "map",
+					"maps": [
+						"Job Tree"
+					]
+				}
             },
             {
                 "title": "Poaches",
@@ -70,7 +116,723 @@
                         "Poaches"
                     ]
                 }
-            }
+            },
+			{
+				"title": "Move-Find Item Maps",
+				"content": {
+					"type": "layout",
+					"key": "movefinditems"
+				}
+			}
         ]
-    }
+    },
+	"movefinditems": {
+		"type": "tabbed",
+		"tabs": [
+			{
+				"title": "World Map",
+				"content": {
+					"type": "map",
+					"maps": [
+						"World Map MFI"
+					]
+				}
+			},
+			{
+				"title": "Gallione",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Dorter Trade City",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Dorter Trade City"
+								]
+							}
+						},
+						{
+							"title": "Dorter Slums",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Dorter Slums"
+								]
+							}
+						},
+						{
+							"title": "Fort Zeakden",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Fort Zeakden"
+								]
+							}
+						},
+						{
+							"title": "Igros Castle",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Igros Castle"
+								]
+							}
+						},
+						{
+							"title": "Lenalia Plateau",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Lenalia Plateau"
+								]
+							}
+						},
+						{
+							"title": "Mandalia Plains",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Mandalia Plains"
+								]
+							}
+						},
+						{
+							"title": "Sweegy Woods",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Sweegy Woods"
+								]
+							}
+						},
+						{
+							"title": "Thieves' Fort",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Thieves' Fort"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "Fovoham",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Fovoham Plains",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Fovoham Plains"
+								]
+							}
+						},
+						{
+							"title": "Grog Hill",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Grog Hill"
+								]
+							}
+						},
+						{
+							"title": "Riovanes Castle Gate",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Riovanes Castle Gate"
+								]
+							}
+						},
+						{
+							"title": "Riovanes Castle Inside",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Riovanes Castle Inside"
+								]
+							}
+						},
+						{
+							"title": "Riovanes Castle Rooftop",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Riovanes Castle Rooftop"
+								]
+							}
+						},
+						{
+							"title": "Windmill Shed",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Windmill Shed"
+								]
+							}
+						},
+						{
+							"title": "Yardow",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Yardow"
+								]
+							}
+						},
+						{
+							"title": "Yuguo Woods",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Yuguo Woods"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "Lesalia",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Araguay Woods",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Araguay Woods"
+								]
+							}
+						},
+						{
+							"title": "Bervenia Volcano",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Bervenia Volcano"
+								]
+							}
+						},
+						{
+							"title": "Goland Coal City",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Goland Coal City"
+								]
+							}
+						},
+						{
+							"title": "Goland Colliery First Floor",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Goland Colliery First Floor"
+								]
+							}
+						},
+						{
+							"title": "Goland Colliery Second Floor",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Goland Colliery Second Floor"
+								]
+							}
+						},
+						{
+							"title": "Goland Colliery Third Floor",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Goland Colliery Third Floor"
+								]
+							}
+						},
+						{
+							"title": "Goland Underground Passage",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Goland Underground Passage"
+								]
+							}
+						},
+						{
+							"title": "Lesalia Imperial Capital",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Lesalia Imperial Capital"
+								]
+							}
+						},
+						{
+							"title": "Sand Rat Cellar",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Sand Rat Cellar"
+								]
+							}
+						},
+						{
+							"title": "Zeklaus Desert",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Zeklaus Desert"
+								]
+							}
+						},
+						{
+							"title": "Zirekile Falls",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Zirekile Falls"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "Lionel",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Bariaus Hill",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Bariaus Hill"
+								]
+							}
+						},
+						{
+							"title": "Bariaus Valley",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Bariaus Valley"
+								]
+							}
+						},
+						{
+							"title": "Golgorand Execution Site",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Golgorand Execution Site"
+								]
+							}
+						},
+						{
+							"title": "Lionel Castle Gate",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Lionel Castle Gate"
+								]
+							}
+						},
+						{
+							"title": "Lionel Castle Inside",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Lionel Castle Inside"
+								]
+							}
+						},
+						{
+							"title": "Zaland",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Zaland"
+								]
+							}
+						},
+						{
+							"title": "Zigolis Swamp",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Zigolis Swamp"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "Zeltennia",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Bervenia City",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Bervenia City"
+								]
+							}
+						},
+						{
+							"title": "Doguola Pass",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Doguola Pass"
+								]
+							}
+						},
+						{
+							"title": "Finath River",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Finath River"
+								]
+							}
+						},
+						{
+							"title": "Germinas Peak",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Germinas Peak"
+								]
+							}
+						},
+						{
+							"title": "Nelveska Temple",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Nelveska Temple"
+								]
+							}
+						},
+						{
+							"title": "Zarghidas",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Zarghidas"
+								]
+							}
+						},
+						{
+							"title": "Zeltennia",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Zeltennia Castle"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "Limberry",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Bed Desert",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Bed Desert"
+								]
+							}
+						},
+						{
+							"title": "Bethla Garrison North Wall",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Bethla Garrison North Wall"
+								]
+							}
+						},
+						{
+							"title": "Bethla Sluice",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Bethla Sluice"
+								]
+							}
+						},
+						{
+							"title": "Bethla Garrison South Wall",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Bethla Garrison South Wall"
+								]
+							}
+						},
+						{
+							"title": "Dolbodar Swamp",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Dolbodar Swamp"
+								]
+							}
+						},
+						{
+							"title": "Limberry Castle Gate",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Limberry Castle Gate"
+								]
+							}
+						},
+						{
+							"title": "Limberry Castle Inside",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Limberry Castle Inside"
+								]
+							}
+						},
+						{
+							"title": "Limberry Underground Cemetery",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Limberry Underground Cemetery"
+								]
+							}
+						},
+						{
+							"title": "Poeskas Lake",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Poeskas Lake"
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "Murond",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "BRIDGE",
+							"content": {
+								"type": "map",
+								"maps": [
+									"BRIDGE"
+								]
+							}
+						},
+						{
+							"title": "DELTA",
+							"content": {
+								"type": "map",
+								"maps": [
+									"DELTA"
+								]
+							}
+						},
+						{
+							"title": "END",
+							"content": {
+								"type": "map",
+								"maps": [
+									"END"
+								]
+							}
+						},
+						{
+							"title": "Goug",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Goug"
+								]
+							}
+						},
+						{
+							"title": "Graveyard of Airships",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Graveyard of Airships"
+								]
+							}
+						},
+						{
+							"title": "HORROR",
+							"content": {
+								"type": "map",
+								"maps": [
+									"HORROR"
+								]
+							}
+						},
+						{
+							"title": "Lost Sacred Precincts",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Lost Sacred Precincts"
+								]
+							}
+						},
+						{
+							"title": "MLAPAN",
+							"content": {
+								"type": "map",
+								"maps": [
+									"MLAPAN"
+								]
+							}
+						},
+						{
+							"title": "Murond Death City",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Murond Death City"
+								]
+							}
+						},
+						{
+							"title": "Murond Temple Hall",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Murond Temple Hall"
+								]
+							}
+						},
+						{
+							"title": "Murond Temple Outside",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Murond Temple Outside"
+								]
+							}
+						},
+						{
+							"title": "NOGIAS",
+							"content": {
+								"type": "map",
+								"maps": [
+									"NOGIAS"
+								]
+							}
+						},
+						{
+							"title": "TERMINATE",
+							"content": {
+								"type": "map",
+								"maps": [
+									"TERMINATE"
+								]
+							}
+						},
+						{
+							"title": "TIGER",
+							"content": {
+								"type": "map",
+								"maps": [
+									"TIGER"
+								]
+							}
+						},
+						{
+							"title": "Underground Book Storage 1",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Underground Book Storage 1"
+								]
+							}
+						},
+						{
+							"title": "Underground Book Storage 2",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Underground Book Storage 2"
+								]
+							}
+						},
+						{
+							"title": "Underground Book Storage 3",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Underground Book Storage 3"
+								]
+							}
+						},
+						{
+							"title": "Underground Book Storage 4",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Underground Book Storage 4"
+								]
+							}
+						},
+						{
+							"title": "Underground Book Storage 5",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Underground Book Storage 5"
+								]
+							}
+						},
+						{
+							"title": "VALKYRIES",
+							"content": {
+								"type": "map",
+								"maps": [
+									"VALKYRIES"
+								]
+							}
+						},
+						{
+							"title": "VOYAGE",
+							"content": {
+								"type": "map",
+								"maps": [
+									"VOYAGE"
+								]
+							}
+						}
+					]
+				}
+			},
+		]
+	}
 }

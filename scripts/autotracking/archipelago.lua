@@ -275,6 +275,18 @@ function autoFill()
 				item = Tracker:FindObjectForCode("enemyrandodisabled")
 			    item.CurrentStage = settings_value
 			end
+			if settings_name == "move_find_item_locations" then
+			    item = Tracker:FindObjectForCode("mfienabled")
+				item.Active = false
+				if settings_value > 0 then
+				    item = Tracker:FindObjectForCode("mfienabled")
+					item.Active = true
+				end
+			end
+			if settings_name == "move_find_item_location_logic" then
+			    item = Tracker:FindObjectForCode("mfilogicdefault")
+			    item.CurrentStage = settings_value
+			end
 			if settings_name == "poach_database" then
 				POACH_DB = settings_value
 			end
@@ -339,11 +351,186 @@ function updateHints(locationID, status) -->
     end
 end
 
+MAP_MAPPING = {
+	[-1] = "World Map",
+	[2] = "Lesalia City",
+	[3] = "Murond Temple Hall",
+	[5] = "Riovanes Castle Rooftop",
+	[6] = "Riovanes Castle Gate",
+	[7] = "Riovanes Castle Inside",
+	[10] = "Igros Castle",
+	[12] = "Lionel Castle Gate",
+	[13] = "Lionel Castle Inside",
+	[16] = "Limberry Castle Inside",
+	[17] = "Limberry Underground Cemetery",
+	[19] = "Limberry Castle Gate",
+	[22] = "World Map",
+	[25] = "Yardow",
+	[27] = "Goland Coal City",
+	[28] = "Goland Colliery First Floor",
+	[29] = "Goland Colliery Second Floor",
+	[30] = "Goland Colliery Third Floor",
+	[31] = "Dorter Trade City",
+	[32] = "Dorter Slums",
+	[34] = "Sand Rat Cellar",
+	[35] = "Zaland",
+	[36] = "Zeltennia Castle",
+	[39] = "Goland Underground Passage",
+	[40] = "Goug",
+	[44] = "Bervenia City",
+	[47] = "Zarghidas",
+	[49] = "Fort Zeakden",
+	[50] = "Murond Temple Outside",
+	[52] = "Murond Temple Chapel",
+	[54] = "Lost Sacred Precincts",
+	[55] = "Graveyard of Airships",
+	[57] = "Underground Book Storage 1",
+	[58] = "Underground Book Storage 2",
+	[59] = "Underground Book Storage 3",
+	[60] = "Underground Book Storage 4",
+	[61] = "Underground Book Storage 5",
+	[63] = "Golgorand Execution Site",
+	[64] = "Bethla Sluice",
+	[66] = "Bethla Garrison South Wall",
+	[67] = "Bethla Garrison North Wall",
+	[69] = "Murond Death City",
+	[70] = "Nelveska Temple",
+	[71] = "Dolbodar Swamp",
+	[72] = "Fovoham Plains",
+	[74] = "Sweegy Woods",
+	[75] = "Bervenia Volcano",
+	[76] = "Zeklaus Desert",
+	[77] = "Lenalia Plateau",
+	[78] = "Zigolis Swamp",
+	[79] = "Yuguo Woods",
+	[80] = "Araguay Woods",
+	[81] = "Grog Hill",
+	[82] = "Bed Desert",
+	[83] = "Zirekile Falls",
+	[84] = "Bariaus Hill",
+	[85] = "Mandalia Plains",
+	[86] = "Doguola Pass",
+	[87] = "Bariaus Valley",
+	[88] = "Finath River",
+	[89] = "Poeskas Lake",
+	[90] = "Germinas Peak",
+	[91] = "Thieves' Fort",
+	[103] = "Windmill Shed",
+	[105] = "TERMINATE",
+	[106] = "DELTA",
+	[107] = "NOGIAS",
+	[108] = "VOYAGE",
+	[109] = "BRIDGE",
+	[110] = "VALKYRIES",
+	[111] = "MLAPAN",
+	[112] = "TIGER",
+	[113] = "HORROR",
+	[114] = "END"
+}
+
+REGION_MAPPING = {
+	[-1] = "World Map",
+	[2] = "Lesalia",
+	[3] = "Murond",
+	[5] = "Fovoham",
+	[6] = "Fovoham",
+	[7] = "Fovoham",
+	[10] = "Gallione",
+	[12] = "Lionel",
+	[13] = "Lionel",
+	[16] = "Limberry",
+	[17] = "Limberry",
+	[19] = "Limberry",
+	[22] = "World Map",
+	[25] = "Fovoham",
+	[27] = "Lesalia",
+	[28] = "Lesalia",
+	[29] = "Lesalia",
+	[30] = "Lesalia",
+	[31] = "Gallione",
+	[32] = "Gallione",
+	[34] = "Lesalia",
+	[35] = "Lionel",
+	[36] = "Zeltennia",
+	[39] = "Lesalia",
+	[40] = "Murond",
+	[44] = "Zeltennia",
+	[47] = "Zeltennia",
+	[49] = "Gallione",
+	[50] = "Murond",
+	[52] = "Murond",
+	[54] = "Murond",
+	[55] = "Murond",
+	[57] = "Murond",
+	[58] = "Murond",
+	[59] = "Murond",
+	[60] = "Murond",
+	[61] = "Murond",
+	[63] = "Lionel",
+	[64] = "Limberry",
+	[66] = "Limberry",
+	[67] = "Limberry",
+	[69] = "Murond",
+	[70] = "Zeltennia",
+	[71] = "Limberry",
+	[72] = "Fovoham",
+	[74] = "Gallione",
+	[75] = "Lesalia",
+	[76] = "Lesalia",
+	[77] = "Gallione",
+	[78] = "Lionel",
+	[79] = "Fovoham",
+	[80] = "Lesalia",
+	[81] = "Fovoham",
+	[82] = "Limberry",
+	[83] = "Lesalia",
+	[84] = "Lionel",
+	[85] = "Gallione",
+	[86] = "Zeltennia",
+	[87] = "Lionel",
+	[88] = "Zeltennia",
+	[89] = "Limberry",
+	[90] = "Zeltennia",
+	[91] = "Gallione",
+	[103] = "Fovoham",
+	[105] = "Murond",
+	[106] = "Murond",
+	[107] = "Murond",
+	[108] = "Murond",
+	[109] = "Murond",
+	[110] = "Murond",
+	[111] = "Murond",
+	[112] = "Murond",
+	[113] = "Murond",
+	[114] = "Murond"
+}
+
+function onMap(value)
+    if value ~= nil and value["data"] ~= nil then
+		if Tracker:FindObjectForCode("mfienabled").Active then
+			local current_map = value["data"]["current_map"]
+			
+			local region_tab = REGION_MAPPING[current_map]
+			local tab = MAP_MAPPING[current_map]
+			if region_tab ~= nil and tab ~= nil then
+				if current_map == -1 then
+					Tracker:UiHint("ActivateTab", "World Map")
+				else
+					Tracker:UiHint("ActivateTab", "Move-Find Items")
+					Tracker:UiHint("ActivateTab", region_tab)
+					Tracker:UiHint("ActivateTab", tab)
+				end
+			end
+		end
+    end
+end
+
 
 -- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
 -- Archipelago:AddClearHandler("clear handler", onClearHandler)
 -- Archipelago:AddItemHandler("item handler", onItem)
 -- Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddBouncedHandler("map handler", onMap)
 
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
